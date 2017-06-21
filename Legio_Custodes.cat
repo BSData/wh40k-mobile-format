@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d3c4-44ca-a604-7f3d" name="Legio Custodes" revision="30" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="9e23-c5c9-1ced-9157" name="Custodian Guard" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0368-6aff-328a-4b1a" name="Custodian" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="2+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="3+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="5"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="5"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="3"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="8"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="b3c7-4bee-97b2-bd7c" name="Shield-Captain" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="2+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="5"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="5"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="3"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="2+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2582-e935-21cf-9012" name="New InfoLink" hidden="false" targetId="cd20-6f90-9c0c-6f65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9e23-c5c9-1ced-9157-6618-7c2a-4048-efbc" hidden="false" targetId="6618-7c2a-4048-efbc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f015-569d-7e0a-138c" name="Custodian" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c43-154b-a008-1840" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3724-e923-95a7-eab8" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="40.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="da74-122c-53fc-c7b2" name="Exchange Guardian Spears" hidden="false" collective="false" defaultSelectionEntryId="57b3-0c12-31a9-f215">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e91-ea7b-9fdc-b4ac" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f0e-9481-afe7-0b0f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="0f15-433c-ab0e-13f3" name="Vexilla and Power Knife" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a19-443e-dfb6-99a1" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a80d-4e91-f50d-68de" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="ea9b-46d4-de09-7916" name="New EntryLink" hidden="false" targetId="e3ce-be01-b45d-f017" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d2b-19be-2246-7537" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5021-754b-b81d-b531" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8093-2db3-0829-5d41" name="New EntryLink" hidden="false" targetId="0d26-4db4-1345-d103" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b249-15b4-0e19-938c" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="979e-131d-e6ea-f038" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d427-ebf6-344e-5ff6" name="Sentinel Blade and Stormshield" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="a93f-4c5b-7462-72a5" name="New EntryLink" hidden="false" targetId="2190-5ce8-54d1-0594" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d15a-7ec0-a684-5f46" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ccb-35dc-bda6-dfa1" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="dacb-20bc-1ca3-59cd" name="New EntryLink" hidden="false" targetId="0fad-66bf-2dbf-2bfe" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b0c-e24f-f2f6-fd59" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6dd-5076-3c6b-b16b" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3c6d-00d4-bb64-5953" name="Sentinel Blade and Power Knife (Shield Captain)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87fd-b4c0-c2fc-5cc2" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b605-dfde-2ab5-4163" name="New EntryLink" hidden="false" targetId="2190-5ce8-54d1-0594" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a842-8488-1709-90f0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d47e-7f5b-b903-6106" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0fe1-acbe-8f4b-a44c" name="New EntryLink" hidden="false" targetId="0d26-4db4-1345-d103" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5bdd-8453-c8fc-cce3" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32d0-b55b-564e-539a" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="57b3-0c12-31a9-f215" name="New EntryLink" hidden="false" targetId="89f5-d929-6496-d1a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ff6-fa7b-ad96-2c9d" name="Venerable Contemptor Dreadnought" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2775-fc4a-bfff-83de" name="Venerable Contemptor Dreadnought" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228" value="10-6&lt;BR&gt;5-3&lt;BR&gt;2-1"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="9&quot;&lt;BR&gt;6&quot;&lt;BR&gt;3&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="2+&lt;BR&gt;3+&lt;BR&gt;4+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+&lt;BR&gt;3+&lt;BR&gt;4+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="7"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="7"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="10"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="8"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4766-4763-d4ae-cb7a" name="New InfoLink" hidden="false" targetId="57f3-72e0-eed0-86ea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5c3b-1a3e-09cb-195c" name="New InfoLink" hidden="false" targetId="54c1-46c6-ae37-e582" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="aa27-696a-528e-8299" name="New InfoLink" hidden="false" targetId="cd20-6f90-9c0c-6f65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9ff6-fa7b-ad96-2c9d-fce4-07ee-b492-2d97" hidden="false" targetId="fce4-07ee-b492-2d97" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e61b-1f90-a7aa-de34" name="Exchange Multi-Melta" hidden="false" collective="false" defaultSelectionEntryId="790b-5147-fff4-ca9d">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af50-f75e-8b5b-a8de" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de18-95df-b6f6-07c9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="21be-71a1-d978-5bb2" name="New EntryLink" hidden="false" targetId="e739-dc04-f5b0-e73b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="790b-5147-fff4-ca9d" name="New EntryLink" hidden="false" targetId="bb0f-a8a4-7815-fef4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="33d9-289e-946a-76e1" name="New EntryLink" hidden="false" targetId="0410-9d3c-4c05-8c4a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ca-853f-af52-f877" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f777-9b68-b807-5d47" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e9da-5b89-94ec-d6a5" name="New EntryLink" hidden="false" targetId="6b92-0ebb-7068-f253" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fdc-8358-4ba2-523f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e36-464d-abc9-4a63" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1e7-0a55-602d-4d9f" name="Venerable Land Raider" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8af1-ef84-bf45-c45d" name="Venerable Land Raider" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228" value="16-9&lt;BR&gt;8-5&lt;BR&gt;4-1"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="10&quot;&lt;BR&gt;5&quot;&lt;BR&gt;3&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="6+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+&lt;BR&gt;3+&lt;BR&gt;4+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="8"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="8"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="16"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="6&lt;BR&gt;D6&lt;BR&gt;1"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="150c-ea56-86bb-1946" name="Venerable Land Raider" hidden="false" profileTypeId="f791-731c-8407-ed58" profileTypeName="Transport Capacity">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Transport Capacity" characteristicTypeId="65c8-cc49-50ee-ca1c" value="5"/>
+            <characteristic name="Transportable Types" characteristicTypeId="b6e7-30c0-f74c-1cf2" value="ADEPTUS CUSTODES INFANTRY"/>
+            <characteristic name="Firing Points" characteristicTypeId="e77c-22f4-e166-c0de" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e994-3578-77c7-22f8" name="Smoke Launchers" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="a104-8bea-9bd7-471a" name="Power of the Machine Spirit" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model does not suffer the penalty to hit rolls for moving and firing heavy weapons</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0014-8a4f-3abe-e05a" name="New InfoLink" hidden="false" targetId="57f3-72e0-eed0-86ea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="230e-5551-79b8-ed55" name="New InfoLink" hidden="false" targetId="54c1-46c6-ae37-e582" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0f53-a279-16b9-b754" name="New InfoLink" hidden="false" targetId="cd20-6f90-9c0c-6f65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c1e7-0a55-602d-4d9f-b408-53ab-4abe-e7bb" hidden="false" targetId="b408-53ab-4abe-e7bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e495-8880-4667-6eb1" name="New EntryLink" hidden="false" targetId="d15a-30e2-af7a-93bb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5087-0e7a-2f24-b8d4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="18e7-87b1-10f7-fbcc" name="New EntryLink" hidden="false" targetId="ae3e-3687-49b5-e8ed" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4288-97e9-937a-a81c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9562-55fd-99ac-c0cc" name="New EntryLink" hidden="false" targetId="1124-adc3-324e-c0d7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e677-956b-b6ef-699f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a388-2dce-9efb-e0ce" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d9f0-3ef3-2ad2-d6df" name="New EntryLink" hidden="false" targetId="5da4-bdb3-fd23-368b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2dd-415b-dc18-9037" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0317-286a-be0a-97ca" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="241.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="6b92-0ebb-7068-f253" name="Combi-Bolter" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e6b7-6907-69ab-d412" name="Combi-Bolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 2"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="2.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d15a-30e2-af7a-93bb" name="Hunter-Killer Missile" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="dcde-1cb2-1df3-6d3b" name="Hunter-Killer Missile" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 1"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="One use only"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="6.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e739-dc04-f5b0-e73b" name="Kheres Pattern Assault Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="da18-7a6c-fc2c-38cf" name="Kheres Pattern Assault Cannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="heavy 6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb0f-a8a4-7815-fef4" name="Multi-Melta" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1121-987b-03e1-e1d1" name="Multi-Melta" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 1"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Within half range, roll twice and take higher for damage."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="27.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae3e-3687-49b5-e8ed" name="Storm Bolter" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c353-e653-edcb-6a9b" name="Storm Bolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 2"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="2.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1124-adc3-324e-c0d7" name="Twin Heavy Bolter" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8fab-99be-6caf-0a5b" name="Twin Heavy Bolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="23.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5da4-bdb3-fd23-368b" name="Twin Lascannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="60df-bbde-253d-9e3a" name="Twin Lascannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="9"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="50.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0410-9d3c-4c05-8c4a" name="Dreadnought CCW" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6b38-310c-4e4f-3d56" name="Dreadnought CCW" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee "/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="x2"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="3"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="40.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89f5-d929-6496-d1a2" name="Guardian Spear" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="168f-2fb4-26de-8a68" name="Guardian Spear (Melee)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+1"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+        <profile id="ab7c-3de1-94ea-be9e" name="Guardian Spear (Shooting)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="12.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d26-4db4-1345-d103" name="Power Knife" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3833-977b-3ad9-a08f" name="Power Knife" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Make 1 additional attack"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="5.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2190-5ce8-54d1-0594" name="Sentinel Blade" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="06cb-7fa9-3e57-3521" name="Sentinel Blade (Melee)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+        <profile id="e958-9af4-c577-fb34" name="Sentinel Blade (Shooting)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Pistol 2"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="9.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3ce-be01-b45d-f017" name="Custodes Vexilla" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d22b-d981-9840-a819" name="Custodes Vexilla" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Reroll failed morale for IMPERIUM units within 6&quot;. All models in the equipped unit gain +1 attack in the fight phase."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fad-66bf-2dbf-2bfe" name="Stormshield" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a6a3-0bb8-bfd9-cc14" name="Stormshield" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Model has a 3+ invulnerable save"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="5.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="cd20-6f90-9c0c-6f65" name="Aegis of the Emperor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Model has a 5+ invulnerable save</description>
+    </rule>
+    <rule id="54c1-46c6-ae37-e582" name="Explodes" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="57f3-72e0-eed0-86ea" name="Unyielding Ancient" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Roll a D6 each time this model suffers a wound or mortal wound; on a 6 the damage is ignored and the wound is not lost</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>

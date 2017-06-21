@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c5c9-bea3-d59e-bc32" name="Questor Traitoris" revision="30" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="3bf4-28cb-1cdc-875c" name="Renegade Knight" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3e9a-dfc7-e840-a33e" name="New InfoLink" hidden="false" targetId="43eb-b4b0-1d43-5a2d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6444-f470-be50-36d5" name="New InfoLink" hidden="false" targetId="1aad-6dc9-8203-9f2a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cdae-ec92-dc3a-20e8" name="New InfoLink" hidden="false" targetId="0e5f-713c-dd2a-a279" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cd0f-464a-607d-ac8e" name="New InfoLink" hidden="false" targetId="d300-cd5a-0fdf-934f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3bf4-28cb-1cdc-875c-dc86-556b-34d4-d5bc" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9b25-5e17-1295-aa87" name="Exchange Heavy Stubber" hidden="false" collective="false" defaultSelectionEntryId="f3ed-be8e-4056-f981">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="968d-a6d9-375b-e254" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e180-33e2-613a-cf88" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f3ed-be8e-4056-f981" name="New EntryLink" hidden="false" targetId="76b6-e5de-6ba5-d73d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4b71-0299-2296-b0a3" name="Meltagun" hidden="false" targetId="9aa3-de1d-115c-9db0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ae64-6427-c977-8c48" name="Exchange Reaper Chainsword" hidden="false" collective="false" defaultSelectionEntryId="ef49-9c66-547b-2fc7">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2954-7443-ac42-3e75" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e3-da67-00a0-e2d0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="772d-e5f8-abe8-5248" name="Knight Weapons" hidden="false" targetId="084d-ac8a-95ab-1123" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e64-d44a-e49b-7bf0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ef49-9c66-547b-2fc7" name="Reaper Chainsword" hidden="false" targetId="3e65-3e6b-7728-9594" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8143-4e7d-83a2-6e59" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8bc8-866b-4eb5-5bde" name="Exchange Thunderstrike Gauntlet" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1960-e931-27f0-c787" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a801-df97-b947-f54a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="dfb2-8935-7773-952c" name="Knight Weapons" hidden="false" targetId="084d-ac8a-95ab-1123" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fcb-1327-8cd2-51bf" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8fae-d20d-4ab9-07e8" name="Thunderstrike Gauntlet" hidden="false" targetId="5c15-63bf-b777-824f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f4d-1ac7-21ca-9629" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a955-0103-b4c0-d831" name="New EntryLink" hidden="false" targetId="e384-bf89-c75c-562a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6061-c2d9-1874-a7bd" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c75-18e8-92c6-b603" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b19-f33a-2bbd-ecdd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="320.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="072a-c53b-b555-6916" name="Avenger Gatling Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3c2f-19b2-d50c-1a6e" name="Avenger Gatling Cannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 12"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="6"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="95.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0de4-8e49-9163-cd6f" name="Heavy Flamer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="bbde-63f9-afa8-e6a8" name="Heavy Flamer" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="8&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Automatically hits"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="17.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="76b6-e5de-6ba5-d73d" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5b57-495a-5401-9896" name="Heavy Stubber" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 3"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="4.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3553-c6a7-82ed-6370" name="Ironstorm Missile Pod" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="53bb-9882-a76c-9270" name="Ironstorm Missile Pod" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="72&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Can target units out of LOS"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="16.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9aa3-de1d-115c-9db0" name="Meltagun" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="14dd-b7f1-2c2d-826c" name="Meltagun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 1"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Within half range, roll twice and take the higher result for damage"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="17.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dde1-ec6e-1c9f-4260" name="Rapid-Fire Battle Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e016-a55d-669b-ff1d" name="Rapid-Fire Battle Cannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="72&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2D6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5201-d9f9-ecb8-9139" name="Stormspear Rocket Pod" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f9f3-f8ec-4332-1512" name="Stormspear Rocket Pod" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 3"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="45.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e0a-ebe6-76f9-1202" name="Thermal Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="22b1-10c4-5e5e-d106" name="Thermal Cannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D3"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="9"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If target has 5 or more models, changes to heavy D6. Within half range, roll twice and take the higher result for damage"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="76.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9083-509d-b5e7-87a6" name="Twin Icarus Autocannon" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7c56-04b7-f619-9793" name="Twin Icarus Autocannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 4"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="+1 to hit vs FLY, -1 to all others"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e65-3e6b-7728-9594" name="Reaper Chainsword" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="504e-5cb9-d3d9-52c7" name="Reaper Chainsword" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="-"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+4"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c15-63bf-b777-824f" name="Thunderstrike Gauntlet" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="357e-e534-2d6c-98cd" name="Thunderstrike Gauntlet" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="x2"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit. If a VEHICLE or MONSTER is slain by the weapon, pick unit within 9&quot;, on 4+ unit suffers D3 mortal wounds."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="35.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="742d-9674-8d6e-f043" name="Titanic Feet" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="21fb-2724-fbe7-f938" name="Titanic Feet" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Make 3 hit rolls for each attack made with the weapon"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="e384-bf89-c75c-562a" name="Carapace Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7527-cbdb-362c-a73a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ad33-8016-62b0-e227" name="New EntryLink" hidden="false" targetId="9083-509d-b5e7-87a6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ab73-1c3f-8ca4-6914" name="New EntryLink" hidden="false" targetId="3553-c6a7-82ed-6370" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c9c-ceae-d847-25f9" name="New EntryLink" hidden="false" targetId="5201-d9f9-ecb8-9139" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="084d-ac8a-95ab-1123" name="Knight Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d3-fe8a-d54e-8b8a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="2cf7-0052-32d3-d754" name="Avenger Gatling Cannon and Heavy Flamer" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2706-5f00-c07e-54ad" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="491e-f03d-ffdc-4dc7" name="Avenger Gatling Cannon" hidden="false" targetId="072a-c53b-b555-6916" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb2-8fce-204e-5638" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f150-1d59-d2d8-2b3a" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="74d9-fe3c-58e6-332b" name="Heavy Flamer" hidden="false" targetId="0de4-8e49-9163-cd6f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1b6-0d37-9fda-31b2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2b4-462e-74e3-361c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6856-ffa3-bb36-9421" name="Rapid-Fire Battle Cannon and Heavy Stubber" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ea-5083-7b94-fed0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="35e3-6702-a7c6-d269" name="Rapid-Fire Battle Cannon" hidden="false" targetId="dde1-ec6e-1c9f-4260" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f639-dc09-4f8e-9bd5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f033-08f3-a456-4f48" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="26ca-5b79-39c8-02b2" name="Heavy Stubber" hidden="false" targetId="76b6-e5de-6ba5-d73d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e355-6dbb-281f-82cb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9063-50b1-0cac-ae56" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0614-cb7b-5958-3b59" name="Thermal Cannon" hidden="false" targetId="2e0a-ebe6-76f9-1202" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bf2-59aa-cd20-3ec8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="43eb-b4b0-1d43-5a2d" name="Explodes (Knight)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield. On a 6 it explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</description>
+    </rule>
+    <rule id="0e5f-713c-dd2a-a279" name="Super Heavy Walker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model can Fall Back in the movement phase and still shoot and/or charge in the same turn. When this model falls back, it can move over enemy INFANTRY models, though it must end its move more than 1&quot; from any enemy units. In addition, this model can move and fire Heavy weapons without suffering the penalty to its hit rolls. Finally, this model only gains a bonus to its save for being in cover if at least half the model is obscured from the firer.</description>
+    </rule>
+    <rule id="1aad-6dc9-8203-9f2a" name="Ion Shield" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model has a 5+ invulnerable save against shooting attacks</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="d300-cd5a-0fdf-934f" name="Knight" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228" value="24-13&lt;BR&gt;12-7&lt;BR&gt;6-1"/>
+        <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="12&quot;&lt;BR&gt;9&quot;&lt;BR&gt;6&quot;"/>
+        <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+&lt;BR&gt;4+&lt;BR&gt;5+"/>
+        <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="3+&lt;BR&gt;4+&lt;BR&gt;5+"/>
+        <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="8"/>
+        <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="8"/>
+        <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="24"/>
+        <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="4"/>
+        <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+        <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="3+"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
