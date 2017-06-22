@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0b29-8e58-e248-9ac9" name="WH40k 8th Mobile" revision="30" battleScribeVersion="2.01" authorName="WindstormSCR" authorContact="/u/WindstormSCR" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0b29-8e58-e248-9ac9" name="WH40k 8th Mobile" revision="31" battleScribeVersion="2.01" authorName="WindstormSCR" authorContact="/u/WindstormSCR" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -50,6 +50,14 @@
         <characteristicType id="4552-a030-568e-efe6" name="Discipline"/>
         <characteristicType id="f67d-0ff6-1aa2-45c3" name="Usable"/>
         <characteristicType id="fd3b-f7e7-d718-4178" name="Deny Chances"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="1eaf-2b08-ee20-2fbd" name="Explodes">
+      <characteristicTypes>
+        <characteristicType id="b768-7f1c-4a92-520c" name="AbilityName"/>
+        <characteristicType id="9481-9213-0767-545c" name="TN"/>
+        <characteristicType id="1449-b537-74bb-4ffd" name="Dist"/>
+        <characteristicType id="b038-7837-f44e-7121" name="MW"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>

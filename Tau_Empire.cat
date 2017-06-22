@@ -2392,12 +2392,20 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="ecf0-4234-3f4c-dc81" name="New EntryLink" hidden="false" targetId="43de-8f06-03ab-4639" type="selectionEntry">
+            <entryLink id="ecf0-4234-3f4c-dc81" name="Burst Cannon" hidden="false" targetId="43de-8f06-03ab-4639" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="set" field="4d99-c3ac-04db-dfeb" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d99-c3ac-04db-dfeb" type="min"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
