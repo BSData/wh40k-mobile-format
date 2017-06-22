@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5949-81cf-4689-4739" name="Tau Empire" revision="30" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5949-81cf-4689-4739" name="Tau Empire" revision="31" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2384,12 +2384,22 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="e736-db2b-364d-c747" name="New EntryLink" hidden="false" targetId="e7d9-0f2c-14af-a05d" type="selectionEntry">
+            <entryLink id="e736-db2b-364d-c747" name="Fusion Blaster" hidden="false" targetId="e7d9-0f2c-14af-a05d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="increment" field="805d-dd31-7635-c031" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="89c0-7e1a-6456-7b4a" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="805d-dd31-7635-c031" type="max"/>
+              </constraints>
               <categoryLinks/>
             </entryLink>
             <entryLink id="ecf0-4234-3f4c-dc81" name="Burst Cannon" hidden="false" targetId="43de-8f06-03ab-4639" type="selectionEntry">
