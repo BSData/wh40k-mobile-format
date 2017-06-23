@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="30" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="31" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1132,7 +1132,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Runes of Fate"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="2"/>
           </characteristics>
@@ -7661,7 +7660,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b057-7255-c633-9fb2" name="New EntryLink" hidden="false" targetId="54eb-e297-9874-9184" type="selectionEntry">
+        <entryLink id="b057-7255-c633-9fb2" name="Razorwing Missiles" hidden="false" targetId="54eb-e297-9874-9184" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9232,6 +9231,248 @@
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="112.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f87a-bcc1-c9dd-0c64" name="Reaper" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ab2c-91c2-89c4-ec67" name="Reaper" book="FW Index Xenos" page="37" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228" value="12-8&lt;BR&gt;7-4&lt;BR&gt;3-1"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="14&quot;&lt;BR&gt;10&quot;&lt;BR&gt;4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="4+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="3+&lt;BR&gt;4+&lt;BR&gt;5+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="6"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="6"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="12"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="5&lt;BR&gt;3&lt;BR&gt;D3"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="7"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="9c04-1754-0e06-dc91" name="Explodes" hidden="false" profileTypeId="1eaf-2b08-ee20-2fbd" profileTypeName="Explodes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AbilityName" characteristicTypeId="b768-7f1c-4a92-520c" value="Explodes"/>
+            <characteristic name="TN" characteristicTypeId="9481-9213-0767-545c" value="5+"/>
+            <characteristic name="Dist" characteristicTypeId="1449-b537-74bb-4ffd" value="6&quot;"/>
+            <characteristic name="MW" characteristicTypeId="b038-7837-f44e-7121" value="D3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9241-7671-06cb-737e" name="Hovering" hidden="false" targetId="a94c-4f66-ad5c-7f19" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e58a-28d7-c312-5f16" name="Nightshield" hidden="false" targetId="7a80-5d35-b861-7f16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="98fb-7023-9a62-f244" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="3724-092a-bf17-f4ad" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bdfa-8cb9-5dd4-4610" name="New CategoryLink" hidden="false" targetId="b408-53ab-4abe-e7bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="277c-cadf-ba02-91d3" name="Storm Vortex Projector" hidden="false" targetId="8a3e-dd5f-a9d1-8c3e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c973-d89c-371e-c73e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8996-971a-a5e9-3ecc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7b3c-be5f-a0c9-9c02" name="Sharpened Prow Blade" hidden="false" targetId="3769-6c9e-7e91-be80" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773a-e86d-d1a7-fa4c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0832-e026-ec9e-f387" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9f10-b2e5-6ba2-a9f1" name="Scythevanes" hidden="false" targetId="3d09-bf3a-7fcd-541a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcd-cc82-97a3-1fd1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc67-6d23-d825-ae09" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53bd-566d-6f47-e025" name="Tantalus" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3ce8-edda-45ac-59fd" name="Tantalus" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228" value="18-9&lt;BR&gt;8-4&lt;BR&gt;3-1"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="16&quot;&lt;BR&gt;14&quot;&lt;BR&gt;12&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="4+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="3+&lt;BR&gt;4+&lt;BR&gt;5+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="7"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="7"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="18"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="6&lt;BR&gt;4&lt;BR&gt;D3"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="7"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="8bd4-c271-4f0d-c04f" name="Explodes" hidden="false" profileTypeId="1eaf-2b08-ee20-2fbd" profileTypeName="Explodes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="AbilityName" characteristicTypeId="b768-7f1c-4a92-520c" value="Explodes"/>
+            <characteristic name="TN" characteristicTypeId="9481-9213-0767-545c" value="6"/>
+            <characteristic name="Dist" characteristicTypeId="1449-b537-74bb-4ffd" value="9&quot;"/>
+            <characteristic name="MW" characteristicTypeId="b038-7837-f44e-7121" value="D6"/>
+          </characteristics>
+        </profile>
+        <profile id="efc9-e14e-4548-53ee" name="Tantalus" hidden="false" profileTypeId="f791-731c-8407-ed58" profileTypeName="Transport Capacity">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Transport Capacity" characteristicTypeId="65c8-cc49-50ee-ca1c" value="16"/>
+            <characteristic name="Transportable Types" characteristicTypeId="b6e7-30c0-f74c-1cf2" value="DRUKHARI INFANTRY or INCUBI (GROTESQUES take 2 slots each)"/>
+            <characteristic name="Firing Points" characteristicTypeId="e77c-22f4-e166-c0de" value="Open Topped"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0ec2-9ef4-eea7-fd94" name="Hovering" hidden="false" targetId="a94c-4f66-ad5c-7f19" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="285b-29c5-f6d9-bb33" name="Nightshield" hidden="false" targetId="7a80-5d35-b861-7f16" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="98fb-7023-9a62-f244" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="3724-092a-bf17-f4ad" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3f43-6dc2-0467-7249" name="New CategoryLink" hidden="false" targetId="b408-53ab-4abe-e7bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="608a-468b-2283-bad8" name="Dire Scythe Blade" hidden="false" targetId="e706-f47c-57a1-fe9c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18a2-f334-81e4-16f4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a7d-9568-305a-6274" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0410-e72c-967d-bc7e" name="Pulse-Disintegrator" hidden="false" targetId="24fc-71ae-85f0-18e5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="190d-6a02-8825-0dfe" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485c-431d-16a6-9bb3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="350.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -12092,6 +12333,155 @@
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3d09-bf3a-7fcd-541a" name="Scythevanes" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1e6e-33e4-4f0a-e6e6" name="Scythevanes" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3769-6c9e-7e91-be80" name="Sharpened Prow Blade" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4ac8-034d-5006-9370" name="Sharpened Prow Blade" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Maximum one attack with this weapon each turn"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="e706-f47c-57a1-fe9c" name="Dire Scythe Blade" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1231-0c49-87e5-04dd" name="Dire Scythe Blade" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="8a3e-dd5f-a9d1-8c3e" name="Storm Vortex Projector" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6536-c902-90da-7734" name="Storm Vortex Projector (Blast)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2D6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="6"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If any models slain, target may not advance next turn"/>
+          </characteristics>
+        </profile>
+        <profile id="834a-a4e5-51a4-0cf5" name="Storm Vortex Projector (Beam)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If any models slain, target may not advance next turn"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="24fc-71ae-85f0-18e5" name="Pulse-Disintegrator" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d1f1-2491-fa4c-690c" name="Pulse-Disintegrator" book="FW Index Xenos" page="87" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 6"/>
+            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="786e-57b7-8874-a4d5" name="Autarch Weapons" hidden="false" collective="false">
@@ -12417,6 +12807,13 @@
       <modifiers/>
       <description>Once per Psy phase, may reroll any number of dice used for a manifest or deny attempt by the model</description>
     </rule>
+    <rule id="a94c-4f66-ad5c-7f19" name="Hovering" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Distance and ranges are always measured from the hull, even though the model has a base.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="212e-410d-100c-df99" name="Ghosthelm" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
@@ -12444,6 +12841,15 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="When Manifesting Smite, Range 9&quot; and only deals 1 MW"/>
+      </characteristics>
+    </profile>
+    <profile id="7a80-5d35-b861-7f16" name="Nightshield" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="This model has a 5+ invulnerable save against Ranged weapons"/>
       </characteristics>
     </profile>
   </sharedProfiles>
