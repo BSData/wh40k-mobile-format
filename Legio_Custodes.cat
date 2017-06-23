@@ -140,93 +140,72 @@
                 <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d427-ebf6-344e-5ff6" name="Sentinel Blade and Stormshield" hidden="false" collective="false" type="upgrade">
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="57b3-0c12-31a9-f215" name="Guardian Spear" hidden="false" targetId="89f5-d929-6496-d1a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="406a-7b52-cc72-96bf" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406a-7b52-cc72-96bf" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4ff6-b555-3e56-0fc2" name="Sentinel Blade" hidden="false" targetId="2190-5ce8-54d1-0594" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a93f-4c5b-7462-72a5" name="New EntryLink" hidden="false" targetId="2190-5ce8-54d1-0594" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d15a-7ec0-a684-5f46" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ccb-35dc-bda6-dfa1" type="min"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="dacb-20bc-1ca3-59cd" name="New EntryLink" hidden="false" targetId="0fad-66bf-2dbf-2bfe" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b0c-e24f-f2f6-fd59" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6dd-5076-3c6b-b16b" type="min"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
-                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3c6d-00d4-bb64-5953" name="Sentinel Blade and Power Knife (Shield Captain)" hidden="false" collective="false" type="upgrade">
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e8c4-c6ce-69fe-ecb9" name="May Take if Spear Replaced:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d4d2-0788-1205-4000" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f15-433c-ab0e-13f3" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ff6-b555-3e56-0fc2" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4d2-0788-1205-4000" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7309-f447-79ea-81b5" name="Stormshield" hidden="false" targetId="0fad-66bf-2dbf-2bfe" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1c6e-8d97-4d22-a75c" name="Power Knife" hidden="false" targetId="0d26-4db4-1345-d103" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87fd-b4c0-c2fc-5cc2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2522-1e54-530a-42db" type="max"/>
               </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="b605-dfde-2ab5-4163" name="New EntryLink" hidden="false" targetId="2190-5ce8-54d1-0594" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a842-8488-1709-90f0" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d47e-7f5b-b903-6106" type="min"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="0fe1-acbe-8f4b-a44c" name="New EntryLink" hidden="false" targetId="0d26-4db4-1345-d103" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5bdd-8453-c8fc-cce3" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32d0-b55b-564e-539a" type="min"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
-                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="57b3-0c12-31a9-f215" name="New EntryLink" hidden="false" targetId="89f5-d929-6496-d1a2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
