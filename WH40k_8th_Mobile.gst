@@ -47,7 +47,6 @@
     <profileType id="ac48-3941-e58c-c8e0" name="Psyker">
       <characteristicTypes>
         <characteristicType id="58b3-77c6-eb0c-a560" name="Powers Known"/>
-        <characteristicType id="4552-a030-568e-efe6" name="Discipline"/>
         <characteristicType id="f67d-0ff6-1aa2-45c3" name="Usable"/>
         <characteristicType id="fd3b-f7e7-d718-4178" name="Deny Chances"/>
       </characteristicTypes>
@@ -2567,7 +2566,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Psykana"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -2666,7 +2664,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Psykana"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -2783,7 +2780,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Psykana"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -3118,7 +3114,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Telethesia"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>

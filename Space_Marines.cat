@@ -4431,7 +4431,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Librarius"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -4641,7 +4640,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Librarius"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -4995,7 +4993,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Librarius"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -5218,7 +5215,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Librarius"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -5744,7 +5740,6 @@
           </modifiers>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Smite only"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -8845,7 +8840,6 @@
           </modifiers>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Smite only"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -10821,7 +10815,6 @@
           </modifiers>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Smite only"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178"/>
           </characteristics>
@@ -14312,7 +14305,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2270-55a4-f229-2f53" name="New EntryLink" hidden="false" targetId="763f-17d6-8a43-b1f7" type="selectionEntry">
+        <entryLink id="2270-55a4-f229-2f53" name="Multi-Melta" hidden="false" targetId="763f-17d6-8a43-b1f7" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14322,7 +14315,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="bac8-4e39-d5dc-097d" name="New EntryLink" hidden="false" targetId="ae67-98f5-fbdd-910c" type="selectionEntry">
+        <entryLink id="bac8-4e39-d5dc-097d" name="Flamestorm Cannon" hidden="false" targetId="ae67-98f5-fbdd-910c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15999,7 +15992,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -16143,7 +16135,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -16323,7 +16314,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -16515,7 +16505,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -16967,7 +16956,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -17160,7 +17148,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -17358,7 +17345,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -17600,7 +17586,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -17770,7 +17755,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -17975,7 +17959,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -18183,7 +18166,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="1"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="1"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -18413,7 +18395,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="1"/>
           </characteristics>
@@ -18734,7 +18715,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="3"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="3"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="3"/>
           </characteristics>
@@ -18930,7 +18910,6 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Powers Known" characteristicTypeId="58b3-77c6-eb0c-a560" value="2"/>
-            <characteristic name="Discipline" characteristicTypeId="4552-a030-568e-efe6" value="Sanctic"/>
             <characteristic name="Usable" characteristicTypeId="f67d-0ff6-1aa2-45c3" value="2"/>
             <characteristic name="Deny Chances" characteristicTypeId="fd3b-f7e7-d718-4178" value="2"/>
           </characteristics>
@@ -33819,7 +33798,30 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="db59-4dca-0a19-4fce" name="Twin Lascannon" hidden="false" targetId="20df-cc8c-496b-b386" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50d9-b7f8-3d39-d76f" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee5d-402b-a9c7-3092" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7b98-800d-9c90-6e94" name="Xiphon Missile Battery" hidden="false" targetId="ba90-c381-324f-1bd8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="627c-747f-0fa7-dc7b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2dcb-0b21-4675-6400" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="80.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
@@ -34150,7 +34152,15 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ffbe-a6d0-a91b-f2b0" name="New CategoryLink" hidden="false" targetId="9c67-f5fe-ab46-bff8" primary="true">
@@ -34166,7 +34176,467 @@
       <entryLinks/>
       <costs>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="550.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0f0-e2f5-f300-98a7" name="Tarantula Sentry Guns" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ca23-77f0-2378-bbb0" name="New CategoryLink" hidden="false" targetId="bb70-585c-2d28-2722" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7d29-0dc4-f223-2c23" name="Tarantula" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4af1-068c-8a6c-1733" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d07-214f-3bd9-6198" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4932-c426-222c-ddfe" name="Exchange Twin Heavy Bolter" hidden="false" collective="false" defaultSelectionEntryId="0324-aef9-7e06-b7be">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fed-7069-21f1-ec7d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b36-6abe-358d-f8bc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b600-9d32-4294-5f8c" name="Multi-Melta" hidden="false" targetId="763f-17d6-8a43-b1f7" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="42e9-647b-e412-adca" name="Twin Assault Cannon" hidden="false" targetId="d485-87af-4b2d-2388" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0324-aef9-7e06-b7be" name="Twin Heavy Bolter" hidden="false" targetId="da05-0e67-c5e1-d6ec" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="dcd8-c6cc-e8fb-49e8" name="Rapier Weapon Battery" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5515-2f24-6ca8-32e9" name="New CategoryLink" hidden="false" targetId="b408-53ab-4abe-e7bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8fcb-05d3-72e5-df14" name="Space Marine Gunner" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5004-6fe9-adca-1228" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c8-cdeb-3bd1-30c9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f17-9179-8627-ca04" name="Exchange Quad Heavy Bolter" hidden="false" collective="false" defaultSelectionEntryId="0e0b-314d-3f4b-f177">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d49-fed5-cf64-f4e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7775-f964-3a68-5dcd" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="fcfb-b003-5d96-ea17" name="Laser Destroyer" hidden="false" targetId="b477-24e8-bd6d-11d5" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0e0b-314d-3f4b-f177" name="Quad Heavy Bolter" hidden="false" targetId="d236-3d0c-2862-4a1f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4678-bee0-366b-57c9" name="Taranutla Air Defence Battery" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5ad3-85fe-c0ef-cd8c" name="New CategoryLink" hidden="false" targetId="bb70-585c-2d28-2722" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fdb2-c9e4-210f-8fb6" name="Tarantula" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e52-f13b-e410-aa81" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d82f-7e52-561b-f60e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="a39e-12f0-56bb-4efa" name="Vortimer Pattern Land Raider Redeemer" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="24e1-64e6-d728-3ad1" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b747-f1bf-4386-6a49" name="New CategoryLink" hidden="false" targetId="b408-53ab-4abe-e7bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0698-656f-e80c-9f18" name="Twin Psycannon" hidden="false" targetId="de4f-3edf-e460-9254" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f95-845d-774d-4296" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ea-93ab-f404-1f01" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5ad6-b94d-aed2-7977" name="Flamestorm Cannon" hidden="false" targetId="ae67-98f5-fbdd-910c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="46e0-11c4-b094-5436" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51c0-fcd0-e4ea-2ddf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7ea6-babd-a8a4-baab" name="Multi-Melta" hidden="false" targetId="763f-17d6-8a43-b1f7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4882-97ba-bc31-2e3d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b78f-cd99-1425-20f9" name="Hunter-Killer Missile" hidden="false" targetId="a0d2-4da8-7326-6fa6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7e5-5303-cc0f-c05c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6042-0814-e91f-2bb2" name="Stormbolter" hidden="false" targetId="465d-b861-318d-ccf7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff55-ebc7-8e2c-1686" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="255.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2197-85a3-f680-ade2" name="Vortimer Pattern Razorback" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="24e1-64e6-d728-3ad1" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d482-da33-9f89-baa6" name="New CategoryLink" hidden="false" targetId="677e-5c63-b7e2-9e9a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3fa4-82bd-c89b-9c96" name="Hunter-Killer Missile" hidden="false" targetId="a0d2-4da8-7326-6fa6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a44-6dbc-50f5-224b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fe1c-f7ec-11b3-862e" name="Stormbolter" hidden="false" targetId="465d-b861-318d-ccf7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d43-c5ff-0788-28bb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ac15-ea0f-ca7d-788c" name="Twin Psycannon" hidden="false" targetId="de4f-3edf-e460-9254" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="544d-cc0a-1eff-ae5a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8449-ccb5-5270-8d95" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b83a-1554-1956-ecca" name="Doomglaive Dreadnought" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="24e1-64e6-d728-3ad1" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e3e9-e96c-453e-2c3b" name="New CategoryLink" hidden="false" targetId="fce4-07ee-b492-2d97" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1847-a436-e774-5dc3" name="Exchange Stormbolter" hidden="false" collective="false" defaultSelectionEntryId="0ec5-ad1e-6c7e-e263">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be3-380d-d0dc-89ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb5-1368-2cc6-ca33" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0ec5-ad1e-6c7e-e263" name="Stormbolter" hidden="false" targetId="465d-b861-318d-ccf7" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1a2d-61bb-f2f4-0f62" name="Incinerator" hidden="false" targetId="a624-7b6e-bdfe-c571" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5fd8-e3e9-1873-8417" name="Heavy Psycannon" hidden="false" targetId="9ab4-0607-6fd0-db05" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ab-39ee-d922-00eb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71d8-e493-ed13-6d91" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1143-ca02-d2a0-102a" name="Nemesis Doomglaive" hidden="false" targetId="bafe-ba9f-3ca2-7a9a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b70-da25-7a5c-1f2c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7599-a541-32ce-1c9b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="116.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -39624,21 +40094,6 @@
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e57d-f766-e095-89bd" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2c93-a9cd-40d7-bff1" name="Firefury Missile Battery" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -39667,6 +40122,46 @@
       <costs>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba90-c381-324f-1bd8" name="Xiphon Missile Battery" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="bafe-ba9f-3ca2-7a9a" name="Nemesis Doomglaive" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de4f-3edf-e460-9254" name="Twin Psycannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="28.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
