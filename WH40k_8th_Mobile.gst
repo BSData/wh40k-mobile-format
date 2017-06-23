@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0b29-8e58-e248-9ac9" name="WH40k 8th Mobile" revision="32" battleScribeVersion="2.01" authorName="WindstormSCR" authorContact="/u/WindstormSCR" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0b29-8e58-e248-9ac9" name="WH40k 8th Mobile" revision="33" battleScribeVersion="2.01" authorName="WindstormSCR" authorContact="/u/WindstormSCR" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4383,6 +4383,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc30-ef04-b6f6-26b6" name="Inquisitor Lord Solomon Lok" hidden="false" collective="false" type="unit">
@@ -4419,6 +4420,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -4732,24 +4734,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f9c3-5eac-0458-4cfb" name="Force Stave" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="38f1-a318-e856-a977" name="Force Stave" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fbea-85f2-06c2-f749" name="Force Stave" hidden="false" targetId="cb1e-a189-fa5c-bdd2" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
-            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
-            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+2"/>
-            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
-            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
-            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -4762,22 +4756,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a453-c552-0793-e81f" name="Laspistol" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="99bf-a9bf-7546-85c2" name="Laspistol" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
-            <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Pistol 1"/>
-            <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="3"/>
-            <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
-            <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
-            <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5499,7 +5478,14 @@
     <selectionEntry id="7d70-5f95-a53e-b228" name="Force Stave (I)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="2845-2f9d-7747-0e17" name="Force Stave" hidden="false" targetId="cb1e-a189-fa5c-bdd2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -6098,5 +6084,1065 @@ Xenos - reroll hits and wounds of 1 vs any that are Not CHAOS, IMPERIUM or UNALI
 Specialist - reroll hits of 1 vs CHARACTERS</description>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="fb28-a7e1-d9f5-ad3a" name="Assault Cannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="ca62-f6dd-c187-e20e" name="Bolt Pistol" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Pistol 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="c9b3-1d96-2a35-c09e" name="Boltgun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="3e1d-ecba-8cc8-63a9" name="Chainfist" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="x2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit"/>
+      </characteristics>
+    </profile>
+    <profile id="775a-a9ab-cf79-dd65" name="Chainsword" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Each time bearer fights, it can make 1 additional attack with this weapon"/>
+      </characteristics>
+    </profile>
+    <profile id="33ef-53a3-918b-c049" name="Combi-bolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="e537-79ca-448e-5b1f" name="Combi-Flamer (Boltgun)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit if using both modes"/>
+      </characteristics>
+    </profile>
+    <profile id="9b5d-5548-baf2-0a03" name="Combi-Flamer (Flamer)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="8&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Automatically Hits"/>
+      </characteristics>
+    </profile>
+    <profile id="d0c6-752c-a4a4-b48f" name="Combi-grav (Boltgun)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit if using both modes"/>
+      </characteristics>
+    </profile>
+    <profile id="3c4c-97ca-468c-8fca" name="Combi-grav (Grav-gun)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="18&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If target has 3+ save or better, Damage becomes D3"/>
+      </characteristics>
+    </profile>
+    <profile id="cc5e-17ea-2e1c-f47e" name="Combi-melta (Boltgun)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit if using both modes"/>
+      </characteristics>
+    </profile>
+    <profile id="f272-ca89-e838-0871" name="Combi-melta (meltagun)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If half range roll twice take higher for damage"/>
+      </characteristics>
+    </profile>
+    <profile id="2944-1dad-df8e-d78f" name="Combi-plasma (Boltgun)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit if using both modes"/>
+      </characteristics>
+    </profile>
+    <profile id="c840-70a0-934d-88a4" name="Combi-plasma (Plasma Gun (standard))" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="9ebe-d3e2-c185-9d01" name="Combi-plasma (Plasma Gun (supercharge))" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer is slain after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="c92f-e145-e930-aaeb" name="Demolisher Cannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="10"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If target has 5+ models, changes to Heavy D6"/>
+      </characteristics>
+    </profile>
+    <profile id="bcd6-0dcc-849c-0c9c" name="Eviscerator" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="x2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit"/>
+      </characteristics>
+    </profile>
+    <profile id="9ad0-7c93-769e-60f5" name="Flamer" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="8&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Automatically Hits"/>
+      </characteristics>
+    </profile>
+    <profile id="a4b6-df18-9904-0c29" name="Force Axe" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+1"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="cb1e-a189-fa5c-bdd2" name="Force Stave" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="13c3-73dc-c9a9-3b42" name="Force Sword" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="49e0-082c-e90e-a8ea" name="Frag Grenade" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="6&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Grenade D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="89e6-9718-b26f-704c" name="Grav-gun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="18&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If target has 3+ save or better, Damage becomes D3"/>
+      </characteristics>
+    </profile>
+    <profile id="b220-c11f-4367-d1b2" name="Grav-Pistol" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Pistol 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If target has 3+ save or better, Damage becomes D3"/>
+      </characteristics>
+    </profile>
+    <profile id="36a9-bb23-1e3f-9de5" name="Heavy Bolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="e00c-4230-9cf4-6c8b" name="Heavy Flamer" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="8&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Automatically Hits"/>
+      </characteristics>
+    </profile>
+    <profile id="6415-a1a6-76e3-9c33" name="Heavy Plasma Cannon (Standard)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="cebb-9595-e334-3949" name="Heavy Plasma Cannon (Supercharge)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer takes a mortal wound after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="497e-12fe-f5e5-8dbc" name="Hunter-Killer Missile" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="One Use Only"/>
+      </characteristics>
+    </profile>
+    <profile id="e0b1-f7e4-0dc5-143e" name="Hurricane Bolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="8b97-6f34-32f5-1bc3" name="Krak Grenade" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="6&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Grenade 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="851e-eefe-61c5-dad6" name="Lascannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="9"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="3292-44e4-017f-925c" name="Lighting Claw" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="Reroll failed wounds, if armed with pair, each time it fights make 1 additional attack"/>
+      </characteristics>
+    </profile>
+    <profile id="a32b-2a78-5bc9-bd1b" name="Melta-bombs" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="4&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Grenade 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="8a1b-84b7-4c82-f8a0" name="Meltagun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If half range roll twice take higher for damage"/>
+      </characteristics>
+    </profile>
+    <profile id="53db-4c42-a4f3-2daa" name="Missile Launcher (frag)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="3273-5a55-c4c7-9dc0" name="Missile Launcher (krak)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="3a48-0e8c-b119-81fb" name="Multi-Melta" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If half range roll twice take higher for damage"/>
+      </characteristics>
+    </profile>
+    <profile id="a4f5-2dea-c30e-37da" name="Plasma Cannon (standard)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="394f-1a25-c4fb-fcfa" name="Plasma Cannon (supercharge)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer is slain after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="91d4-d3aa-b4d3-9dd4" name="Plasma Cutter (standard)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="5cec-46e8-2cfa-6e52" name="Plasma Cutter (supercharge)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer is slain after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="c7d8-78eb-c7b7-599b" name="Plasma Gun (standard)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="8ccb-ede3-5ddd-c8f9" name="Plasma Gun (supercharge)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer is slain after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="ca61-70c3-4cb7-cc8b" name="Plasma Pistol (standard)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Pistol 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="04f0-6b4a-9283-13c7" name="Plasma Pistol (supercharge)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Pistol 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer is slain after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="d506-9c40-79bd-63df" name="Power Axe" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+1"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="a05f-ec76-3a95-df35" name="Power Fist" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="x2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit"/>
+      </characteristics>
+    </profile>
+    <profile id="cf88-cca3-c533-6770" name="Power Lance" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="b92c-2c63-379f-fb92" name="Power Maul" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="+2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="9ff5-2842-149f-4125" name="Power Sword" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="c066-cf86-771d-8337" name="Reaper Autocannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 4"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="5c36-4ce9-5c7c-b7c5" name="Servo arm" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="x2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="can only be used for 1 attack, -1 to hit"/>
+      </characteristics>
+    </profile>
+    <profile id="b7bb-a5ed-f15f-6ca1" name="Sniper Rifle" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="May target CHARACTERS even if they are not closest. Wound rolls of 6 inflict an additional Mortal Wound"/>
+      </characteristics>
+    </profile>
+    <profile id="1762-a4ea-1cc9-7c30" name="Storm Shield" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="This model has a 3+ invulnerable save"/>
+      </characteristics>
+    </profile>
+    <profile id="65c6-38f0-7653-c068" name="Stormbolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="6a89-262f-5b12-941a" name="Thunder Hammer" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="x2"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-1 to hit"/>
+      </characteristics>
+    </profile>
+    <profile id="7571-aff2-faa1-3f7e" name="Twin Autocannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 4"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="63e1-7cff-57da-a1c6" name="Twin Boltgun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="afd9-45fd-48a1-be38" name="Twin Heavy Bolter" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="3a76-764c-42b4-c474" name="Twin Heavy Flamer" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="8&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 2D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="5"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="2788-402b-120c-b8f8" name="Twin Heavy Plasma Cannon (Standard)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2D3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="ffd8-57b0-9d78-d16f" name="Twin Heavy Plasma Cannon (Supercharge)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2D3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer takes a mortal wound after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="7b17-9334-6087-af8d" name="Twin Lascannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="9"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="8c5f-b57f-d459-f1f0" name="Twin Multi-Melta" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D6"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="If half range roll twice take higher for damage"/>
+      </characteristics>
+    </profile>
+    <profile id="4c77-2c8b-4c5b-a493" name="Twin Plasma Gun (standard)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="0df8-4189-cdc2-4643" name="Twin Plasma Gun (supercharge)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-3"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="On a hit roll of 1, the bearer is slain after all shots have been resolved"/>
+      </characteristics>
+    </profile>
+    <profile id="8e75-5223-6161-dbc2" name="Laspistol" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Pistol 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="fc62-6613-756f-8d4c" name="Lasgun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="b517-ab97-7241-03a4" name="Autocannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="48&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="7"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="2"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="988c-1fa6-4067-12af" name="Battle Cannon" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="72&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-2"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="ec7b-89a4-86ef-02f7" name="Grenade Launcher (Frag)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault D6"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="b43a-d683-3ea7-9dcc" name="Grenade Launcher (Krak)" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-1"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="7812-94b9-f35f-7d3e" name="Heavy Stubber" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Heavy 3"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="475d-ee92-e47d-469b" name="Shotgun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Assault 2"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="+1 Strength if within half range"/>
+      </characteristics>
+    </profile>
+    <profile id="0c41-0100-7dfa-6429" name="Autogun" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Rapid Fire 1"/>
+        <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="0"/>
+        <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="1"/>
+        <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79" value="-"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>
