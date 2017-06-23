@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da20-c096-03e4-eadd" name="Space Marines" revision="31" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da20-c096-03e4-eadd" name="Space Marines" revision="32" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -81,6 +81,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b395-8371-0072-d862" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="575d-0e30-aaa6-06df" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="1914-77bd-7b56-3427" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -193,7 +200,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c1ae-a118-28d4-e1dc" name="Scout Squad" hidden="false" collective="false" type="unit">
@@ -275,6 +282,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b395-8371-0072-d862" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -482,7 +496,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="55.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dec4-b8a0-4abb-b52b" name="Intercessor Squad" hidden="false" collective="false" type="unit">
@@ -609,7 +623,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ede8-6081-2c12-10f5" name="Drop Pod" hidden="false" collective="false" type="unit">
@@ -1201,6 +1215,33 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="4">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="afff-d47a-c801-dd88" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2a12-51c2-a150-a9b1" type="atLeast"/>
+                <condition field="selections" scope="afff-d47a-c801-dd88" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2b84-f098-ca56-4ca9" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="afff-d47a-c801-dd88" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2d65-a300-45b0-a9f8" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="afff-d47a-c801-dd88" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2d65-a300-45b0-a9f8" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints/>
       <categoryLinks>
@@ -1444,7 +1485,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5aec-1b94-3f7c-5ea5" name="Attack Bikes" hidden="false" collective="false" type="unit">
@@ -1787,7 +1828,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="7036-2d41-14f1-f3fb" name="New EntryLink" hidden="false" targetId="655d-e6f4-9073-9dc9" type="selectionEntry">
+        <entryLink id="7036-2d41-14f1-f3fb" name="Assault Bolter" hidden="false" targetId="655d-e6f4-9073-9dc9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1801,7 +1842,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="135.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8c2-4aaa-31c2-dd1a" name="Land Speeder Squadron" hidden="false" collective="false" type="unit">
@@ -2496,7 +2537,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="74.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cdf8-00b6-ae9b-6f58" name="Captain in Cataphractii Armor" hidden="false" collective="false" type="unit">
@@ -2728,7 +2769,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="127.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0ab-4a3e-bbdf-78a9" name="Captain in Gravis Armor" hidden="false" collective="false" type="unit">
@@ -2841,7 +2882,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="102.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="770d-b91c-c679-9636" name="Captain in Terminator Armor" hidden="false" collective="false" type="unit">
@@ -3102,7 +3143,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="122.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d856-c0e8-e681-61b3" name="Captain on Bike" hidden="false" collective="false" type="unit">
@@ -3361,7 +3402,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="98.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f9b-312b-60c6-9b8a" name="Captain with Jump Pack" hidden="false" collective="false" type="unit">
@@ -3608,7 +3649,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="93.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea78-ead8-b50c-719c" name="Chaplain" hidden="false" collective="false" type="unit">
@@ -3802,7 +3843,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="72.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a88d-f3dd-3c82-5593" name="Chaplain in Terminator Armor" hidden="false" collective="false" type="unit">
@@ -3951,7 +3992,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="115.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c08a-c1a9-4070-6e63" name="Chaplain on Bike" hidden="false" collective="false" type="unit">
@@ -4161,7 +4202,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="95.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cdbc-9ff6-a68a-fec7" name="Chaplain with Jump Pack" hidden="false" collective="false" type="unit">
@@ -4360,7 +4401,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="90.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac81-9690-fafc-b84d" name="Librarian" hidden="false" collective="false" type="unit">
@@ -4570,7 +4611,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="93.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a728-e143-d2e1-1fee" name="Librarian in Terminator Armor" hidden="false" collective="false" type="unit">
@@ -4924,7 +4965,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="145.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0476-35df-47a2-b892" name="Librarian on Bike" hidden="false" collective="false" type="unit">
@@ -5147,7 +5188,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="119.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc7f-5b1b-1f3b-3767" name="Librarian with Jump Pack" hidden="false" collective="false" type="unit">
@@ -5370,7 +5411,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="116.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7294-1ede-8a05-0825" name="Primaris Lieutenants" hidden="false" collective="false" type="unit">
@@ -5529,7 +5570,7 @@
           </entryLinks>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="70.0"/>
-            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5953,7 +5994,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="1.0"/>
                 <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -6067,7 +6108,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="58.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0720-4f71-58ff-af9a" name="Techmarine on Bike" hidden="false" collective="false" type="unit">
@@ -6314,7 +6355,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="1.0"/>
                 <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -6525,7 +6566,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="55.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e24a-9f57-4433-4813" name="Apothecary on Bike" hidden="false" collective="false" type="unit">
@@ -6678,7 +6719,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="80.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d87d-654a-d0ae-97f7" name="Cataphractii Terminator Squad" hidden="false" collective="false" type="unit">
@@ -7676,7 +7717,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="63.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="849e-2b89-d640-b2d0" name="Company Ancient on Bike" hidden="false" collective="false" type="unit">
@@ -7870,7 +7911,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="88.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7674-4a18-78df-b5dd" name="Company Champion" hidden="false" collective="false" type="unit">
@@ -8029,7 +8070,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="56.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="168b-5b26-75ee-43f4" name="Company Champion on Bike" hidden="false" collective="false" type="unit">
@@ -8175,7 +8216,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="80.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15d7-25cb-23fd-9a28" name="Company Veterans" hidden="false" collective="false" type="unit">
@@ -8214,6 +8255,13 @@
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="b395-8371-0072-d862" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="5">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="15d7-25cb-23fd-9a28" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="41f3-4ba5-1ab0-7299" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8561,7 +8609,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -9610,7 +9658,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="69.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c778-65a8-eca5-d5f0" name="Servitors" hidden="false" collective="false" type="unit">
@@ -9725,7 +9773,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83c9-6b62-814e-5fc6" name="Sternguard Veteran Squad" hidden="false" collective="false" type="unit">
@@ -33743,7 +33791,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="220.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f82-97da-e11c-9f9a" name="Xiphon Interceptor" hidden="false" collective="false" type="unit">
@@ -34116,7 +34164,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -39463,7 +39514,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0487-768b-0d2b-6c81" name="Helios Launcher" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -39475,7 +39529,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5334-c202-1f8a-1f67" name="Quad Launcher" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -39489,6 +39546,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="45.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcc4-9799-e51a-e9fd" name="Dreadnought Inferno Cannon" hidden="false" collective="false" type="upgrade">
@@ -39503,6 +39561,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="35.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7711-dcc6-28fd-35d3" name="Tempest Salvo Launcher" hidden="false" collective="true" type="upgrade">
@@ -39517,6 +39576,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0aa7-fad9-0549-3088" name="Assault Cannon" hidden="false" collective="true" type="upgrade">
@@ -39559,7 +39619,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e57d-f766-e095-89bd" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -39571,7 +39634,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2c93-a9cd-40d7-bff1" name="Firefury Missile Battery" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -39583,7 +39649,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f76a-e607-c44b-11af" name="Twin Magna-Melta" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -39595,7 +39664,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
