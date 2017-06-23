@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="50ec-a9aa-f7bb-a4e3" name="Adeptus Ministorum" revision="30" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="50ec-a9aa-f7bb-a4e3" name="Adeptus Ministorum" revision="31" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1327,7 +1327,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4cec-fe6d-6581-6927" name="New EntryLink" hidden="false" targetId="fca3-c431-cde4-a424" type="selectionEntry">
+        <entryLink id="4cec-fe6d-6581-6927" name="Stormbolter (M)" hidden="false" targetId="fca3-c431-cde4-a424" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1348,7 +1348,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0e2c-9e1d-c3a7-3e7f" name="New EntryLink" hidden="false" targetId="1cde-ff4a-f977-f32c" type="selectionEntry">
+        <entryLink id="0e2c-9e1d-c3a7-3e7f" name="Hunter-Killer" hidden="false" targetId="1cde-ff4a-f977-f32c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1362,6 +1362,111 @@
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="73.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23b0-9adb-5f20-4d8c" name="Sororitas Repressor" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="aca3-940b-a168-e39e" name="New CategoryLink" hidden="false" targetId="677e-5c63-b7e2-9e9a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1d16-d644-cffe-3f13" name="Additional Weapon" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cac4-61cb-0921-bf0b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4d84-66f9-09f6-8c10" name="Heavy Flamer" hidden="false" targetId="628f-a6bb-5d37-73a6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="253b-aae2-9191-e15b" name="Stormbolter (M)" hidden="false" targetId="fca3-c431-cde4-a424" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a54e-caae-37ac-6729" name="Hunter-Killer" hidden="false" targetId="1cde-ff4a-f977-f32c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07b7-dfa7-e397-86dd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="478c-c473-1912-8b24" name="Stormbolter (M)" hidden="false" targetId="fca3-c431-cde4-a424" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7380-f774-2f31-02fe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f4c-9b67-2f2f-3698" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e564-b3d3-12ed-3611" name="Heavy Flamer" hidden="false" targetId="628f-a6bb-5d37-73a6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde4-bd4e-ea88-c22d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7db-203f-83c6-0137" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ff67-7cb3-33af-25dc" name="Dozer Ram" hidden="false" targetId="6894-8e1c-377c-e1f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d40-f9d7-90aa-f8e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8859-c4c0-74c9-aa3e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="71.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1546,6 +1651,18 @@
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="17.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="6894-8e1c-377c-e1f8" name="Dozer Ram" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
