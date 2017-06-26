@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da20-c096-03e4-eadd" name="Space Marines" revision="33" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da20-c096-03e4-eadd" name="Space Marines" revision="34" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -288,7 +288,7 @@
         <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="4">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+            <condition field="selections" scope="c1ae-a118-28d4-e1dc" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="e421-0777-7d27-ce70" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -15730,7 +15730,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="37f0-a12c-9e3b-891d" name="Astral Claws" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15742,7 +15745,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="86e0-93a8-4fdd-3c5b" name="Minotaurs" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15754,7 +15760,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d684-f3c9-7546-23d0" name="Carcharodons" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15766,7 +15775,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0c8f-d734-fb54-338e" name="Howling Griffons" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15778,7 +15790,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2af2-f646-7746-cb0a" name="Marines Errant" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15790,7 +15805,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c735-8938-202c-e4f1" name="Fire Angels" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15802,7 +15820,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8c45-2828-abf3-7ecb" name="Raptors" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15814,7 +15835,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8e95-2d81-6484-744f" name="Lamenters" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15826,7 +15850,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b1a0-e6e3-ade2-0ea5" name="Novamarines" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15838,7 +15865,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4d1e-f794-d5ce-2b68" name="Mantis Warriors" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15850,7 +15880,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b268-fc16-7d63-16e9" name="Executioners" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15862,7 +15895,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a78c-6e1b-eeae-f893" name="Exorcists" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15874,7 +15910,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="97ee-4d86-c077-3c44" name="Star Phantoms" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15886,7 +15925,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e15d-09c7-0d73-313e" name="Fire Hawks" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15898,7 +15940,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -34860,6 +34905,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="200.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="204c-ecef-e626-b710" name="Magister Sevrin Loth" hidden="false" collective="false" type="unit">
@@ -34890,6 +34936,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="140.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89e3-20f4-aa8b-bbc7" name="Tyberos the Red Wake" hidden="false" collective="false" type="unit">
@@ -34920,6 +34967,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="205.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0132-1adb-bdca-7e75" name="Chaplain Dreadnought Titus" hidden="false" collective="false" type="unit">
@@ -34950,6 +34998,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="170.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3fc7-ef84-38ea-37e8" name="Lieutenant Commander Anton Narveaz" hidden="false" collective="false" type="unit">
@@ -34980,6 +35029,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="115.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53d7-0481-c16b-6220" name="Captain Tarnus Vale" hidden="false" collective="false" type="unit">
@@ -35010,6 +35060,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="120.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="914b-da23-f0a0-82ba" name="Lias Issodon" hidden="false" collective="false" type="unit">
@@ -35040,6 +35091,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="195.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5768-4541-974e-4c8f" name="Malakim Phoros" hidden="false" collective="false" type="unit">
@@ -35070,6 +35122,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="205.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee2a-91f0-06f3-6b6d" name="Captain Mordecai Blaylock" hidden="false" collective="false" type="unit">
@@ -35100,6 +35153,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="135.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="859c-b21e-8bac-77b8" name="Captain Pellas Mir&apos;san" hidden="false" collective="false" type="unit">
@@ -35130,6 +35184,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="130.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82cc-ca0b-b07e-243d" name="Bray&apos;arth Ashmantle" hidden="false" collective="false" type="unit">
@@ -35160,6 +35215,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="400.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec80-0a77-00b9-4a75" name="Harath Shen" hidden="false" collective="false" type="unit">
@@ -35190,6 +35246,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="75.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94a5-23c8-8df7-a1be" name="Chief Librarian Ahazra Redth" hidden="false" collective="false" type="unit">
@@ -35220,6 +35277,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="115.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de38-a863-377b-8883" name="High Chaplain Thulsa Kane" hidden="false" collective="false" type="unit">
@@ -35250,6 +35308,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="190.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="00dd-4561-3f66-b319" name="Lord Asterion Moloc" hidden="false" collective="false" type="unit">
@@ -35280,6 +35339,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="200.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e737-c9d8-3104-f7f2" name="Captain Corren Sumatris" hidden="false" collective="false" type="unit">
@@ -35310,6 +35370,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="85.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a58-e44a-1ae6-f361" name="Captain Silas Alberec" hidden="false" collective="false" type="unit">
@@ -35340,6 +35401,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="115.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de80-4df9-1cbc-4b42" name="Arch-centurion Carnac Commodus" hidden="false" collective="false" type="unit">
@@ -35370,6 +35432,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="85.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b59-b2bf-cd55-e43c" name="Knight-Captain Elam Courbray" hidden="false" collective="false" type="unit">
@@ -35400,6 +35463,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="120.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eef3-0c30-e5b2-13a7" name="Lugft Huron" hidden="false" collective="false" type="unit">
@@ -35430,6 +35494,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="215.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e57-ce45-5c7e-7a7e" name="Armenneus Valthex" hidden="false" collective="false" type="unit">
@@ -35460,6 +35525,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="140.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abbe-3cf7-f639-bb0f" name="Chaplain Ivanus Enkomi" hidden="false" collective="false" type="unit">
@@ -35490,6 +35556,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="95.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8c8-8325-9b9f-2586" name="Captain Zhrukhal Androcles" hidden="false" collective="false" type="unit">
@@ -35520,6 +35587,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="110.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d60-c670-3644-09f3" name="Hecaton Aiakos" hidden="false" collective="false" type="unit">
@@ -35573,6 +35641,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="220.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -41072,7 +41141,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bafe-ba9f-3ca2-7a9a" name="Nemesis Doomglaive" hidden="false" collective="false" type="upgrade">
