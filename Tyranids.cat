@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eedb-8bca-80cb-1f1b" name="Tyranids" revision="30" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eedb-8bca-80cb-1f1b" name="Tyranids" revision="31" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3026,12 +3026,24 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d465-f91b-68d0-7313" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce8a-db4f-2aa6-4c41" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce8a-db4f-2aa6-4c41" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="5243-5c96-0102-f6d7" name="Rending Claws" hidden="false" targetId="8bf6-4255-73e0-e847" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b382-a324-1cd2-9269" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b18-df10-29ed-b3b4" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="35.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
@@ -3068,6 +3080,14 @@
               <categoryLinks/>
             </entryLink>
             <entryLink id="78f0-b04a-7ea2-66cd" name="Lash Whip and Bonesword" hidden="false" targetId="1346-a023-d9c3-9f8b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ec1c-6584-7cde-d3aa" name="Scything Talons" hidden="false" targetId="387d-0b53-40da-0d2e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
