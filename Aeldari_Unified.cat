@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="31" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="32" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -9558,6 +9558,7 @@
               </entryLinks>
               <costs>
                 <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e369-c9f9-64a1-394a" name="Shadow Spectre Exarch" hidden="false" collective="false" type="model">
@@ -9586,6 +9587,7 @@
               </entryLinks>
               <costs>
                 <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="12.0"/>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9594,7 +9596,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3633-caea-443a-111b" name="Irillyth" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -9637,6 +9642,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="160.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b55-f67e-86b5-a18e" name="Scorpion" hidden="false" collective="false" type="unit">
@@ -9745,7 +9751,155 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="650.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4d43-169f-6971-9904" name="Hornets" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ed8e-00e7-33e6-51d2" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="3724-092a-bf17-f4ad" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="9270-5bb5-6350-846b" name="Hornet" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6a-98bf-df82-96da" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a786-d8da-231f-ecc0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="85.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d767-c332-7f3b-e3f6" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="630b-0d96-ad07-b6e5">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="e23b-89a8-8952-e1b5" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9270-5bb5-6350-846b" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="5ede-5d50-2e08-8165" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9270-5bb5-6350-846b" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23b-89a8-8952-e1b5" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ede-5d50-2e08-8165" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2102-4395-69d0-be93" name="New EntryLink" hidden="false" targetId="00e5-10be-bd20-8706" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0f4b-dc92-2f44-761a" name="New EntryLink" hidden="false" targetId="323f-5015-a4c4-027f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1f57-260e-6950-df50" name="New EntryLink" hidden="false" targetId="e8d5-66a1-f650-9d80" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="648e-e641-41ba-dbb9" name="New EntryLink" hidden="false" targetId="c8c2-c62a-c4b9-cac2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="630b-0d96-ad07-b6e5" name="Shuriken Cannon" hidden="false" targetId="5960-67e5-b0b8-eb9b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="1fe5-5a3c-f61f-df0b" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fe5-5a3c-f61f-df0b" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5341-0cd8-c08d-8c24" name="Hornet Pulse Laser" hidden="false" targetId="8c4d-57e0-ab94-f389" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fd2d-1bf4-4580-fa24" name="Vehicle Equipment" hidden="false" targetId="3683-1add-f1da-31b5" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -12781,6 +12935,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1dbc-4eab-e628-de06" name="Prism Rifle" hidden="false" collective="true" type="upgrade">
@@ -12795,6 +12950,21 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c4d-57e0-ab94-f389" name="Hornet Pulse Laser" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -12948,27 +13118,27 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="bd3b-4067-08b9-12eb" name="New EntryLink" hidden="false" targetId="0735-d233-27af-5971" type="selectionEntry">
+        <entryLink id="bd3b-4067-08b9-12eb" name="Crystal Targeting Matrix" hidden="false" targetId="0735-d233-27af-5971" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9064-829d-ac19-5d2d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c5c-7eb8-bb2b-a873" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f0ba-52a5-b63a-1f10" name="New EntryLink" hidden="false" targetId="ed61-6b5f-8b33-574f" type="selectionEntry">
+        <entryLink id="f0ba-52a5-b63a-1f10" name="Spirit Stones" hidden="false" targetId="ed61-6b5f-8b33-574f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e940-0cd8-f878-c6c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e6c-4ebb-f0ca-b8a5" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="007a-060a-3915-7246" name="New EntryLink" hidden="false" targetId="81d6-9da5-eadb-b10a" type="selectionEntry">
+        <entryLink id="007a-060a-3915-7246" name="Star Engines" hidden="false" targetId="81d6-9da5-eadb-b10a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
