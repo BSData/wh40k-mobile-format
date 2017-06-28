@@ -9936,7 +9936,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="946c-e4e8-f578-b7ec" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="946c-e4e8-f578-b7ec" type="max"/>
       </constraints>
       <categoryLinks/>
     </entryLink>
