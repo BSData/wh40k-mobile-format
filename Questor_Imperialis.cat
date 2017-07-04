@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f0b-7acd-13b3-01ff" name="Questor Imperialis" revision="30" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4f0b-7acd-13b3-01ff" name="Questor Imperialis" revision="32" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -764,6 +764,751 @@
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a904-409b-c24b-e18a" name="Cerastus Knight Acheron" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ec0d-22bb-cc80-2553" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8350-7727-a925-aefc" name="Twin Heavy Bolter" hidden="false" targetId="56fe-fc75-b581-e04a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c2-da4b-b476-7f44" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a1-4d15-2a62-2bff" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9757-676f-99c5-b652" name="Reaper Chainfist" hidden="false" targetId="47ff-d47e-b318-e7b2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e074-f410-87dd-2ce3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefd-a6ec-daf6-9b63" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="daa7-9b83-4261-1ce0" name="Acheron Flame Cannon" hidden="false" targetId="aa46-bed2-606f-499c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee40-bcee-8daa-c476" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f703-7e4e-63a8-c0f2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d218-ea00-d5e9-417e" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154f-085e-143f-6460" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="574e-a6d1-d8fc-e2b0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="358.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42a6-44e4-bf53-55d3" name="Cerastus Knight Atropos" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="271c-3a48-6c19-4ac7" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e8fe-5547-84a2-dd13" name="Graviton Sigularity Cannon" hidden="false" targetId="a0aa-0ab4-a151-c393" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2806-407e-c122-1ced" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a10-e806-bf1c-fabc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1256-0493-7e2d-134c" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81c-8629-f4ec-5496" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fad-2284-deb5-b07c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9b31-14fb-9bf0-aa5c" name="Atropos Lascutter" hidden="false" targetId="6c21-abec-782a-e720" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d9f-a171-b78f-8b48" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ef-191c-bbe6-100c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="405.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="934b-99ef-7906-e988" name="Cerastus Knight Casitgator" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c8f9-1f3a-9dc6-f428" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1a5d-8764-94c6-7c05" name="Castigator Bolt Cannon" hidden="false" targetId="75b9-d07f-ab93-d0b9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="887e-2df2-6615-a96d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43f5-9689-ff78-92a6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9398-4bad-ae2a-c4f2" name="Tempest Warblade" hidden="false" targetId="5eed-274c-5e72-4dd5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4253-9e7c-e025-0d57" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e16e-f279-eeae-22ad" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1859-f517-e1d1-a375" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2442-c333-d3dc-cbd9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02d-fa6b-05e7-d8a3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="350.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86ef-e87a-6231-4bb3" name="Cerastus Knight Lancer" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f291-0a88-485c-1b56" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8578-6152-28a7-388c" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48cf-800c-e0a9-1684" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85a6-da5e-9ba7-d828" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1b32-950e-6cfd-3537" name="Cerastus Shock Lance" hidden="false" targetId="4031-3a63-5614-a4ed" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0db-d41c-1a47-cfe2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae75-3b5f-df4e-b3fc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="420.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="449d-9393-0d83-c216" name="Questoris Knight Magaera" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7aab-783e-9624-616b" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b77-c24d-0784-93c1" name="Exchange Reaper Chainsword" hidden="false" collective="false" defaultSelectionEntryId="dbb5-5e6d-581a-95d9">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d682-6af8-a545-5c3b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f434-b19f-c72a-d65c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="19dc-e911-f4a2-b2a3" name="Hekaton Siege Claw and Twin Irad Cleanser" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="699b-ec92-8a67-7b60" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="fb28-85e3-862c-c3fe" name="Twin Irad Cleanser" hidden="false" targetId="7260-4a9c-26f1-3732" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e11d-22e8-281c-87fb" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fb-eee4-e566-aaef" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="7333-7f15-0095-f8db" name="Hekaton Siege Claw" hidden="false" targetId="1d47-ac69-bbaa-9466" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11c6-c0f8-7de5-c37b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b453-2830-f1c1-672d" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="dbb5-5e6d-581a-95d9" name="Reaper Chainsword" hidden="false" targetId="3e65-3e6b-7728-9594" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a8-0829-22d2-4916" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ef0e-d8ab-8602-0be9" name="Lightning Cannon" hidden="false" targetId="b503-5950-e9b1-19c4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e91c-edc7-a8de-d95b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d199-b39a-5ba9-dc95" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="503c-c93e-bca4-cafa" name="Phased Plasma-Fusil" hidden="false" targetId="1994-a9c9-d43d-1515" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f2-244a-699a-8593" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="020e-116c-77a6-eede" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b1c5-6f6f-11a2-013f" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f4-56f8-d51b-db02" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de53-37ad-7885-a388" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="440.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4614-a9eb-017c-739b" name="Acastus Knight Porphyrion" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c4d3-ded0-8989-2e32" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6ffe-bd86-d9ba-f023" name="Exchange Autocannons" hidden="false" collective="false" defaultSelectionEntryId="4810-6f46-44fe-8676">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1070-9862-baf8-39d9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e78-a562-d948-976c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="4810-6f46-44fe-8676" name="Two Autocannons" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="bba4-9e24-9c8d-f6fd" name="Autocannon" hidden="false" targetId="a83b-8710-6387-a386" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f21f-4b44-8683-a36b" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef8-9348-8b7f-cb66" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9cf8-f6b0-65d9-a437" name="Two Lascannons" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="eeb7-fada-365a-2866" name="Lascannon" hidden="false" targetId="802b-c2f6-6b0d-3a74" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ac7-3f90-957a-4464" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d6-2f1c-6cc9-b0e9" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="87ea-92f2-c719-f25c" name="Exchange Ironstorm Missiles" hidden="false" collective="false" defaultSelectionEntryId="d9ee-40d1-9e46-378a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b18b-a567-1df6-d84f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4321-dc60-01be-b622" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d9ee-40d1-9e46-378a" name="Ironstorm Missile Pod" hidden="false" targetId="3553-c6a7-82ed-6370" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d731-068b-81c5-ce2a" name="Helios Defence Missiles" hidden="false" targetId="8ad0-d08c-850a-ceea" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2d69-8665-05c6-f9ef" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b5-35ab-c3e7-29cb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d6-a7eb-f884-46d2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0b43-b72d-9ea7-9dff" name="Twin Magma Lascannon" hidden="false" targetId="8b3b-361a-290c-9f7f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a96-319e-505e-564f" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a527-adaa-97d6-ce75" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="540.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aefa-a648-ce09-90cc" name="Questoris Knight Styrix" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d94f-b33f-f5f3-4a21" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="68ca-7c97-2d43-b222" name="Exchange Reaper Chainsword" hidden="false" collective="false" defaultSelectionEntryId="624d-8956-b4ac-5e95">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13c-07bc-67ad-47d8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c1-bfb0-b68e-6a6d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="a102-6356-7dc9-c49c" name="Hekaton Siege Claw and Twin Irad Cleanser" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b41-0c50-aed4-5ff8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="a3ac-31b5-9e24-82a0" name="Twin Irad Cleanser" hidden="false" targetId="7260-4a9c-26f1-3732" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbb3-c302-d3d8-c6c9" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e9e-cca3-88a6-8d3c" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="b139-0f32-6a57-fbb9" name="Hekaton Siege Claw" hidden="false" targetId="1d47-ac69-bbaa-9466" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db5-48a8-014a-7347" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66a9-d228-4136-b222" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="624d-8956-b4ac-5e95" name="Reaper Chainsword" hidden="false" targetId="3e65-3e6b-7728-9594" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d409-9839-7328-4c86" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2f6d-9e21-f6a2-8c8d" name="Volkite Chierovile" hidden="false" targetId="0c29-0525-78f0-ec11" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f6-7db3-9ea2-e9ca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95b7-dbf0-8cde-711f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c3ad-504e-c20d-89da" name="Graviton Crusher" hidden="false" targetId="dc76-42e6-80fd-aa0a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e3-c2d6-51ab-fa7e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a0-4933-e888-6dd4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d8e3-8290-1d2f-016d" name="Titanic Feet" hidden="false" targetId="742d-9674-8d6e-f043" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7add-72d5-59b0-8110" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf8-dbc9-0dc9-ef0e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="340.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b96-2d3a-0d33-29a1" name="Reaver Battle Titan" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5f53-2f2e-fa7f-066c" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="2400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43a7-4a6b-b938-5831" name="Warlord Battle Titan" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3206-c6df-948e-8d47" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="4000.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fe8-ec1f-f0d3-103b" name="Warhound Scout Titan" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b66b-c9cb-7f7f-44c3" name="New CategoryLink" hidden="false" targetId="dc86-556b-34d4-d5bc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="1500.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -1125,6 +1870,274 @@
       <costs>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa46-bed2-606f-499c" name="Acheron Flame Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="80.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c21-abec-782a-e720" name="Atropos Lascutter" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="80.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a83b-8710-6387-a386" name="Autocannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="75b9-d07f-ab93-d0b9" name="Castigator Bolt Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="120.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4031-3a63-5614-a4ed" name="Cerastus Shock Lance" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="60.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc76-42e6-80fd-aa0a" name="Graviton Crusher" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0aa-0ab4-a151-c393" name="Graviton Sigularity Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="70.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d47-ac69-bbaa-9466" name="Hekaton Siege Claw" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ad0-d08c-850a-ceea" name="Helios Defence Missiles" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="45.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="802b-c2f6-6b0d-3a74" name="Lascannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b503-5950-e9b1-19c4" name="Lightning Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="70.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1994-a9c9-d43d-1515" name="Phased Plasma-Fusil" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56fe-fc75-b581-e04a" name="Twin Heavy Bolter" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="17.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47ff-d47e-b318-e7b2" name="Reaper Chainfist" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="40.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5eed-274c-5e72-4dd5" name="Tempest Warblade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7260-4a9c-26f1-3732" name="Twin Irad Cleanser" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b3b-361a-290c-9f7f" name="Twin Magma Lascannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c29-0525-78f0-ec11" name="Volkite Chierovile" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="80.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
