@@ -12238,6 +12238,13 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="15e4-2e9d-4494-876c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1c8f-1673-9d04-683a" type="equalTo"/>
           </conditions>
           <conditionGroups/>
