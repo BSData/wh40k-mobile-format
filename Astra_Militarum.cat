@@ -9757,7 +9757,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="9246-59b6-0942-fc80" name="Twin lascannon" hidden="false" targetId="1240-ec74-e636-c2b9" type="selectionEntry">
+            <entryLink id="9246-59b6-0942-fc80" name="Twin lascannon" hidden="false" targetId="ebaa-eccd-d461-39c2" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9773,7 +9773,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="89c3-3ee0-5cd3-7b09" name="Twin multi-laser" hidden="false" targetId="4fd3-83fc-2bb2-7a0d" type="selectionEntry">
+            <entryLink id="89c3-3ee0-5cd3-7b09" name="Twin multi-laser" hidden="false" targetId="2a33-b200-31fc-e3d9" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13563,7 +13563,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2ed4-4551-0be7-09a1" name="4 Heavy stubbers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -13587,7 +13590,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0501-e789-ceb0-874a" name="4 Heavy bolters" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -13611,7 +13617,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0ecd-520f-5b0b-d689" name="4 Heavy flamers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -13635,7 +13644,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -13769,7 +13781,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="72da-cdc4-9161-9081" name="2 Heavy bolters" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -13793,7 +13808,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="54ed-9154-cf56-338f" name="2 Heavy flamers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -13817,7 +13835,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -13962,7 +13983,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5c08-b36f-6d97-d6d3" name="2 Heavy bolters" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -13986,7 +14010,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="540e-d1a4-ddf4-b588" name="2 Heavy flamers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -14010,7 +14037,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -14144,7 +14174,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a18e-e75a-1131-027c" name="2 Heavy bolters" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -14168,7 +14201,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="07b4-d8c1-4a71-6e99" name="2 Heavy flamers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -14192,7 +14228,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -14337,7 +14376,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d7f4-559c-4c33-4449" name="2 Heavy bolters" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -14361,7 +14403,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="42b3-88a3-8f0e-829f" name="2 Heavy flamers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -14385,7 +14430,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -14487,7 +14535,10 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -14596,7 +14647,10 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -14644,6 +14698,17 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b028-612a-64fc-6906" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314f-ba86-d38b-0ea2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a0f8-7871-5cd0-2daa" name="Twin Heavy Bolter" hidden="false" targetId="d8fd-2c4a-cc1d-c016" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a37c-bea6-f7b4-1187" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067d-843a-092e-9be2" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -15115,6 +15180,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="110.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e67-9dfc-46be-32c3" name="Arvus Lighters" book="IAI2" page="46" hidden="false" collective="false" type="upgrade">
@@ -15163,6 +15229,7 @@
           <entryLinks/>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="115.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15208,7 +15275,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b2f2-cad8-cfb3-f98d" name="2 Twin Heavy Stubbers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15232,7 +15302,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -15257,7 +15330,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9365-1dde-8f0e-2d5d" name="Avenger Strike Fighter" book="IAI2" page="47" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -15323,7 +15399,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3cb7-8f5e-3665-f711" name="2 Hellfury missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15347,7 +15426,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4ed4-92c1-44e7-d1f2" name="2 Autocannons" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15371,7 +15453,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8d83-99ca-dd64-8a92" name="2 Multi-Lasers" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15395,7 +15480,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="cb38-5c8e-9cad-5750" name="2 Helltrike missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15419,7 +15507,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -15472,6 +15563,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="125.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1338-0cf9-3799-75c1" name="Lightning Strike Fighter" book="IAI2" page="48" hidden="false" collective="false" type="upgrade">
@@ -15538,7 +15630,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f702-b10a-f24a-6e04" name="6 Skystrike missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15562,7 +15657,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f263-6e0f-e280-c4dc" name="4 Helltrike missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15586,7 +15684,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -15628,6 +15729,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="95.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9144-31bd-e122-eb37" name="Thunderbolt Heavy Fighter" book="IAI2" page="48" hidden="false" collective="false" type="upgrade">
@@ -15694,7 +15796,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="bfde-9d90-6310-ef39" name="4 Helltrike missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15718,7 +15823,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -15760,6 +15868,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="832b-c668-efaa-81d7" name="Vendetta Gunships" book="IAI2" page="50" hidden="false" collective="false" type="upgrade">
@@ -15820,6 +15929,7 @@
           </entryLinks>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="110.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15902,7 +16012,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="247e-98b4-52eb-9e48" name="2 Twin lascannons" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -15934,7 +16047,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -15942,7 +16058,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4c47-69eb-e60c-a91b" name="Vulture Gunship Squadron" book="IAI2" page="51" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -16002,6 +16121,7 @@
           </entryLinks>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="112.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -16068,7 +16188,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="40dd-eb4d-c6c5-4230" name="Twin autocannons" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -16092,7 +16215,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e0a0-bc1f-605a-43dd" name="Twin lascannons" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -16116,7 +16242,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="faac-32d6-5f10-da10" name="Twin  multi-laser" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -16148,7 +16277,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -16224,7 +16356,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="83b6-5a1a-19f9-cdaf" name="2 Multiple Rocket Pods" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -16248,7 +16383,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="210a-30bf-1758-4f07" name="2 Hellfury missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -16272,7 +16410,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="272e-bf51-e96f-46c7" name="6 Skystrike missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -16296,7 +16437,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3765-e720-afef-2075" name="6 Hunter-Killer Missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -16320,7 +16464,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -16368,7 +16515,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c0b0-0268-0d33-d61c" name="Imperial Fortress Walls" book="IAI2" page="52" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -16414,7 +16564,10 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4a6f-6535-291c-9d8d" name="Gate Towers" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -16429,7 +16582,10 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8304-2b24-0893-3f49" name="Wall Sections" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -16444,7 +16600,10 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f41b-c56f-31d0-d97f" name="Towers" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -16459,7 +16618,10 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -16545,6 +16707,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="400.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc4d-3226-cc21-8737" name="Primaris Redoubt" book="IAI2" page="53" hidden="false" collective="false" type="upgrade">
@@ -16699,6 +16862,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="300.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0fd-8f72-29b6-4c28" name="Elysian Company Commander" book="IAI2" page="73" hidden="false" collective="false" type="unit">
@@ -17671,7 +17835,10 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -17762,7 +17929,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b8e7-7687-1d5b-9d39" name="2 Multiple Rocket Pods" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -17786,7 +17956,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -17808,6 +17981,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="130.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -19983,7 +20157,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="18b6-2e1b-c326-bdfc" name="Dominus triple bombard" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -19995,7 +20172,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1d27-1844-93b5-b325" name="Gorgon mortar" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20007,7 +20187,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c16a-e451-37d5-8149" name="Gorgon mortar" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20019,7 +20202,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8f29-a094-6106-0eb3" name="Macharius battle cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20031,7 +20217,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="58d8-2f7c-666f-7578" name="Macharius battle cannon" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20043,7 +20232,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8786-7cba-6fad-adff" name="Omega pattern plasma blastgun" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20055,7 +20247,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="aabd-a266-50e3-a3b2" name="Omega pattern plasma blastgun" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20067,7 +20262,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6721-3637-a677-d287" name="Macharius vanquisher cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20079,7 +20277,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8aa0-df08-7900-168e" name="Macharius vanquisher cannon" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20091,7 +20292,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c5f5-4238-fddd-d8f0" name="Macharius vulcan mega-bolter" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20103,7 +20307,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8c90-1008-01f5-aaef" name="Macharius vulcan mega-bolter" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20115,7 +20322,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="12b2-b5b5-29e0-9d20" name="Cluster of heavy bombs" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20129,6 +20339,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2152-23f6-4ff1-ddb8" name="Cluster of heavy bombs" hidden="false" collective="true" type="upgrade">
@@ -20143,6 +20354,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="078d-3309-f0df-0be7" name="Cluster of hellstorm bombs" hidden="false" collective="false" type="upgrade">
@@ -20157,6 +20369,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="40.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ddf0-fca5-4060-56ca" name="Cluster of hellstorm bombs" hidden="false" collective="true" type="upgrade">
@@ -20171,6 +20384,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="40.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9572-5f9d-dee3-5816" name="Cluster of tactical bombs" hidden="false" collective="false" type="upgrade">
@@ -20185,6 +20399,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6e5-6922-9c47-73f6" name="Cluster of tactical bombs" hidden="false" collective="true" type="upgrade">
@@ -20199,6 +20414,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68af-121c-c437-d544" name="Twin assault cannon" hidden="false" collective="false" type="upgrade">
@@ -20213,6 +20429,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="35.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a317-ade3-1c07-b3d3" name="Twin assault cannon" hidden="false" collective="true" type="upgrade">
@@ -20227,6 +20444,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="35.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ee1-1dea-99a4-4154" name="Hellstrike Missiles" hidden="false" collective="true" type="upgrade">
@@ -20256,6 +20474,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db8b-ebb6-edac-01a9" name="Hellfury missile" hidden="false" collective="true" type="upgrade">
@@ -20270,6 +20489,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4dc-8b9b-f77f-39f5" name="Skystrike missile" hidden="false" collective="true" type="upgrade">
@@ -20284,6 +20504,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db87-4a57-2f46-e7b0" name="Skystrike missile" hidden="false" collective="false" type="upgrade">
@@ -20298,6 +20519,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f31e-29c0-c473-2e05" name="Long-barreled autocannon" hidden="false" collective="true" type="upgrade">
@@ -20312,6 +20534,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b6d-0baf-6bf8-f19f" name="Long-barreled autocannon" hidden="false" collective="false" type="upgrade">
@@ -20326,6 +20549,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f75-7931-6922-cfc9" name="Twin Earthshaker cannon" hidden="false" collective="false" type="upgrade">
@@ -20338,7 +20562,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="13ed-6815-04ae-8dce" name="Twin Earthshaker cannon" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20350,7 +20577,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c476-2914-5422-49d1" name="Praetor launcher" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20362,7 +20592,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a5eb-f302-7d2e-0e1d" name="Praetor launcher" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20374,7 +20607,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1a78-eb5b-eb67-8be4" name="Neutron laser projector" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20386,7 +20622,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b3c6-9973-2f81-566e" name="Neutron laser projector" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20398,7 +20637,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8cc4-a045-cd18-7cc7" name="Avenger bolt Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20410,7 +20652,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e043-b708-9665-d2fe" name="Avenger bolt Cannon" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20422,7 +20667,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="67de-20ca-8544-daee" name="Twin punisher gatling cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20436,6 +20684,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="40.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37e0-31fc-4097-f1e9" name="Twin punisher gatling cannon" hidden="false" collective="true" type="upgrade">
@@ -20450,6 +20699,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="40.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c72-a31b-f60c-6fc9" name="Defensive heavy stubber" hidden="false" collective="false" type="upgrade">
@@ -20462,7 +20712,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b562-b5b1-7851-29cc" name="Hunter-Killer Missile" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20489,7 +20742,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="96c1-d1b8-a714-4290" name="dual turbo-laser destructor" hidden="false" collective="true" type="upgrade">
       <profiles/>
@@ -20501,7 +20757,10 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="93cf-806f-089d-5a66" name="Air defence missiles" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -20515,6 +20774,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c636-8a76-bbdf-1786" name="Icarus lascannon" hidden="false" collective="false" type="upgrade">
@@ -20529,6 +20789,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e5d-58f4-8d9b-e84f" name="Icarus quad lascannon" hidden="false" collective="false" type="upgrade">
@@ -20543,6 +20804,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32f9-6077-d75e-2e5c" name="Quad gun" hidden="false" collective="false" type="upgrade">
@@ -20557,6 +20819,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b0a-5251-3550-94ff" name="Whirlwind Castellan Launcher" hidden="false" collective="false" type="upgrade">
@@ -20571,6 +20834,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a18-06ac-752b-a35c" name="Whirlwind vengeance Launcher" hidden="false" collective="false" type="upgrade">
@@ -20585,6 +20849,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="80d3-9186-c77a-5000" name="Breacher charge" hidden="false" collective="false" type="upgrade">
@@ -20599,6 +20864,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="40de-c646-439e-7ba0" name="Breacher charge" hidden="false" collective="true" type="upgrade">
@@ -20613,6 +20879,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d26f-cad3-4daf-6b94" name="Lascutter" hidden="false" collective="false" type="upgrade">
@@ -20627,6 +20894,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a778-5a15-eff9-b2fa" name="Lascutter" hidden="false" collective="true" type="upgrade">
@@ -20641,6 +20909,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
