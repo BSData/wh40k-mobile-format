@@ -386,10 +386,53 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ab0e-a686-34a1-595b" name="Cadre Fireblade" hidden="false" collective="false" type="unit">
-      <profiles/>
+      <profiles>
+        <profile id="40e2-48c6-89bb-e9bb" name="Cadre Fireblade" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="3"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="5"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="8"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="e8b0-3958-8ffc-dddf" name="Volley Fire" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Models in &lt;SEPT&gt; units within 6&quot; of any friendly &lt;SEPT&gt; Cadre Fireblades may fire an extra shot with pulse pistols, pulse carbines and pulse rifles when shooting at a target within half the weapon’s range."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
+      <infoLinks>
+        <infoLink id="feb5-c8a7-8d55-957f" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ab0e-a686-34a1-595b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1297-6e4e-738c-3955" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ab0e-a686-34a1-595b-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
@@ -403,7 +446,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="214c-f413-ea9f-4d0f" name="New EntryLink" hidden="false" targetId="effc-f109-df06-23e9" type="selectionEntry">
+        <entryLink id="214c-f413-ea9f-4d0f" name="Markerlight" hidden="false" targetId="effc-f109-df06-23e9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -414,7 +457,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1408-9005-676a-90e1" name="New EntryLink" hidden="false" targetId="3d30-bae8-f4d6-a0cd" type="selectionEntry">
+        <entryLink id="1408-9005-676a-90e1" name="Pulse Rifle" hidden="false" targetId="3d30-bae8-f4d6-a0cd" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -436,17 +479,54 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1297-6e4e-738c-3955" name="Tactical Drones" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="779e-6fc9-f107-ea90" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="39.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e349-2277-62ea-4899" name="Commander" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
+      <infoLinks>
+        <infoLink id="05e7-7ed3-8c42-4763" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab21-77e6-e072-5fe1" name="Master of War" hidden="false" targetId="29e0-b867-54c7-542e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f625-5a16-37a0-8500" name="Manta Strike" hidden="false" targetId="fe78-2354-c5c5-261b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="e349-2277-62ea-4899" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3265-f123-5471-0b8b" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="e349-2277-62ea-4899-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
@@ -459,29 +539,28 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7eb8-ef1f-425f-9494" name="May Take a Total of Four" hidden="false" collective="false">
+        <selectionEntryGroup id="7eb8-ef1f-425f-9494" name="Wargear" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7962-32d3-6ba1-ee84" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4794-da3f-d5da-40d3" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0f22-bf31-e096-7c2e" name="New EntryLink" hidden="false" targetId="13b9-af51-6453-bc65" type="selectionEntryGroup">
+            <entryLink id="0f22-bf31-e096-7c2e" name="TE Ranged Weapons" hidden="false" targetId="13b9-af51-6453-bc65" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e6f-79b2-3865-70ba" type="min"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="ef59-3df2-05ae-9385" name="New EntryLink" hidden="false" targetId="d7e0-0a12-fb14-e2bb" type="selectionEntryGroup">
+            <entryLink id="ef59-3df2-05ae-9385" name="Support Systems" hidden="false" targetId="d7e0-0a12-fb14-e2bb" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -493,30 +572,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="da10-2796-2334-26bb" name="Missile Pod" hidden="false" targetId="bdcd-f0a3-88e2-eb76" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="92cc-e722-da54-51c1" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7eb8-ef1f-425f-9494" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="ed2b-053d-37af-df3c" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92cc-e722-da54-51c1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2b-053d-37af-df3c" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="3265-f123-5471-0b8b" name="Tactical Drones" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -530,14 +585,70 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="76.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="370c-aba6-e943-9028" name="Commander in XV86 Coldstar" hidden="false" collective="false" type="unit">
-      <profiles/>
+      <profiles>
+        <profile id="2bdf-598a-1fec-b1da" name="Coldstar" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="When this model Advances, add 20&quot; to its Move characteristic for that Movement phase instead of
+rolling a D6."/>
+          </characteristics>
+        </profile>
+        <profile id="44e0-0316-ae65-dbc2" name="Commander in XV86 Coldstar" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="20&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="5"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="5"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="6"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
+      <infoLinks>
+        <infoLink id="afa1-fa93-4fe6-a778" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="67ce-882b-2317-2a38" name="Manta Strike" hidden="false" targetId="fe78-2354-c5c5-261b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e3fd-2bf7-1a25-0d5c" name="Master of War" hidden="false" targetId="29e0-b867-54c7-542e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="370c-aba6-e943-9028" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="84f8-7a00-942c-c87b" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="370c-aba6-e943-9028-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
@@ -551,7 +662,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="f75a-dc50-70d6-8cd4" name="New EntryLink" hidden="false" targetId="a904-7c37-f8d1-0b86" type="selectionEntry">
+        <entryLink id="f75a-dc50-70d6-8cd4" name="High-output Burst Cannon" hidden="false" targetId="a904-7c37-f8d1-0b86" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -562,7 +673,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a259-8a19-5b8c-ecd1" name="New EntryLink" hidden="false" targetId="bdcd-f0a3-88e2-eb76" type="selectionEntry">
+        <entryLink id="a259-8a19-5b8c-ecd1" name="Missile Pod" hidden="false" targetId="bdcd-f0a3-88e2-eb76" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -573,7 +684,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d423-04a1-0f95-52ef" name="New EntryLink" hidden="false" targetId="d7e0-0a12-fb14-e2bb" type="selectionEntryGroup">
+        <entryLink id="d423-04a1-0f95-52ef" name="Support Systems" hidden="false" targetId="d7e0-0a12-fb14-e2bb" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -583,7 +694,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="84f8-7a00-942c-c87b" name="New EntryLink" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
+        <entryLink id="84f8-7a00-942c-c87b" name="Tactical Drones" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -596,7 +707,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="90.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e86-fe71-e4ad-dcc6" name="XV8 Crisis" hidden="false" collective="false" type="unit">
@@ -812,10 +923,50 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d022-3b60-b534-48c7" name="Ethereal" hidden="false" collective="false" type="unit">
-      <profiles/>
+      <profiles>
+        <profile id="9740-d95e-bef3-cf76" name="Ethereal" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="4+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="3"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="4"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
+      <infoLinks>
+        <infoLink id="c769-ac99-9fcd-f171" name="Failure Is Not An Optio" hidden="false" targetId="9fb2-0707-bcb0-adac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d976-f44c-b8ae-f218" name="Invocation of the Elements" hidden="false" targetId="3d31-6c67-395c-72ee" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="d022-3b60-b534-48c7" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b00-b7a3-57ee-ffd3" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="d022-3b60-b534-48c7-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
@@ -861,7 +1012,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5b00-b7a3-57ee-ffd3" name="New EntryLink" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
+        <entryLink id="5b00-b7a3-57ee-ffd3" name="Tactical Drones" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -874,14 +1025,54 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="45.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d6b-c487-9b66-c1cf" name="Ethereal on Hover Drone" hidden="false" collective="false" type="unit">
-      <profiles/>
+      <profiles>
+        <profile id="52b3-466c-0b86-84b6" name="Ethereal on Hover Drone" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="4+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="3"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="4"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
+      <infoLinks>
+        <infoLink id="7246-fee4-3bbb-1d82" name="Failure Is Not An Optio" hidden="false" targetId="9fb2-0707-bcb0-adac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2e7b-7b1d-b76d-bcdc" name="Invocation of the Elements" hidden="false" targetId="3d31-6c67-395c-72ee" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="0a66-bd1e-3b50-42a2" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="7d6b-c487-9b66-c1cf" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d05c-a19b-6e34-66d4" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="7d6b-c487-9b66-c1cf-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
@@ -927,7 +1118,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d05c-a19b-6e34-66d4" name="New EntryLink" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
+        <entryLink id="d05c-a19b-6e34-66d4" name="Tactical Drones" hidden="false" targetId="597f-5c89-0364-b4c9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -940,7 +1131,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="50.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82ff-7ee9-074f-0ac1" name="Firesight Marksman" hidden="false" collective="false" type="unit">
@@ -3427,19 +3618,53 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f977-6dfb-2fd8-f266" name="Aun&apos;Shi" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="8272-b84f-dd4b-0de2" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <profiles>
+        <profile id="f09a-6acd-923d-2253" name="Aun&apos;Shi" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="2+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="4+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="3"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="5"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="5"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c592-537d-74e6-ff1f" name="Blademaster" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the beginning of each Fight phase, choose one of the following effects to last until the end of the phase: -Aun’Shi’s close combat attacks have AP -2. -You may re-roll failed invulnerable saves for Aun’Shi.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6aa5-0909-4319-5de4" name="Failure Is Not An Option" hidden="false" targetId="9fb2-0707-bcb0-adac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5fba-ab3b-236b-ed6b" name="Invocation of the Elements" hidden="false" targetId="3d31-6c67-395c-72ee" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca7a-3fd9-ff46-99c6" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="f977-6dfb-2fd8-f266-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
           <profiles/>
@@ -3452,7 +3677,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="734e-ce5f-9936-b74c" name="New EntryLink" hidden="false" targetId="af21-1ab7-4675-04a9" type="selectionEntry">
+        <entryLink id="734e-ce5f-9936-b74c" name="Honour Blade" hidden="false" targetId="af21-1ab7-4675-04a9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3469,26 +3694,80 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a45e-67bf-2dd6-dec8" name="Shield Generator" hidden="false" targetId="8592-96cb-7723-f618" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bf0-9f22-c769-c8eb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05af-9b06-6155-d10a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="68.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7bb6-4e4e-373a-9735" name="Aun&apos;Va" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="fe44-55bc-29db-efc8" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <profiles>
+        <profile id="b54e-2978-9c66-81fa" name="Aun&apos;Va" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="6+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="4+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="2"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="3"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="6"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1aa8-20b8-6b4e-c8c5" name="Grand Invocation of the Elements" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In your Movement phase, Aun’Va may invoke up to two elemental powers. All T’AU EMPIRE INFANTRYand BATTLESUIT units within 6&quot; of any ETHEREAL invoking an elemental power gain the relevant benefit until the start
+of your next turn. Calm of Tides: Subtract 1 from any Morale tests made for affected units. -Storm of Fire: You may re-roll hit rolls of 1 in the Shooting phase for affected units that remain stationary in the Movement phase. -Sense of Stone: Whenever an affected unit suffers an unsaved wound, roll a D6. On a 6, that wound is ignored. -Zephyr’s Grace: You can re-roll the dice for affected units when they Advance.</description>
+        </rule>
+        <rule id="a14c-d7f9-7ad2-5e47" name="Paradox of Duality" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this unit is attacked during the Shooting phase, it may add, rather than subtract, the AP of the attack to its Save characteristic (e.g. an AP -1 attack would provide a +1 bonus to its saves).</description>
+        </rule>
+        <rule id="c654-20d6-44bc-be70" name="Supreme Loyalty" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Whilst Aun’Va is on the battlefield, you may re-roll Morale tests for all friendly T’AU EMPIRE units.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0279-d2f3-1ba2-ea72" name="Failure Is Not An Option" hidden="false" targetId="9fb2-0707-bcb0-adac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22c3-b126-4676-255a" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="7bb6-4e4e-373a-9735-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
           <profiles/>
@@ -3500,7 +3779,26 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0620-4568-a07b-429a" name="Ethereal Guard" hidden="false" collective="false" type="upgrade">
-          <profiles/>
+          <profiles>
+            <profile id="c193-a8bc-11f3-1f33" name="Ethereal Guard" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+                <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="6&quot;"/>
+                <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+"/>
+                <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="3+"/>
+                <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+                <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="3"/>
+                <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="2"/>
+                <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="3"/>
+                <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+                <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="5+"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules/>
           <infoLinks/>
           <modifiers/>
@@ -3511,7 +3809,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="8d71-a3b0-ad65-4ae1" name="New EntryLink" hidden="false" targetId="af21-1ab7-4675-04a9" type="selectionEntry">
+            <entryLink id="8d71-a3b0-ad65-4ae1" name="Honour Blade" hidden="false" targetId="af21-1ab7-4675-04a9" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3557,23 +3855,70 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d29-3a22-01d5-4aec" name="Commander Farsight" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="51f1-031b-d8c2-c3d5" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <profiles>
+        <profile id="c066-af14-1d72-c6c6" name="Commander Farsight" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="2+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="5"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="5"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="6"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a8a8-dae7-4fa2-9d30" name="Genius of Mont’ka" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per battle, Commander Farsight can declare Mont’ka even if Kauyon or Mont’ka has already been declared. Mont’ka and Kauyon cannot both be declared in the same turn.</description>
+        </rule>
+        <rule id="82f0-c215-ef69-92ff" name="Way of the Short Blade" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>You can re-roll hit rolls of 1 for friendly FARSIGHT ENCLAVES units within 6&quot; of Commander Farsight in the Fight phase (or any phase if the target is an ORK unit).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0928-f124-5cff-4591" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f1e9-9565-fef6-e8f3" name="Master of War" hidden="false" targetId="29e0-b867-54c7-542e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ff5-bde7-8419-1963" name="Manta Strike" hidden="false" targetId="fe78-2354-c5c5-261b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da9e-d958-1cd5-b79b" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="0d29-3a22-01d5-4aec-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
           <profiles/>
@@ -3583,10 +3928,41 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="f557-d17e-e9ba-4ff4" name="Dawn Blade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="30de-8591-8da1-54ec" name="Dawn Blade" hidden="false" profileTypeId="cfd8-8bc8-cc0e-9312" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="0213-a332-9232-3ebc" value="Melee"/>
+                <characteristic name="Type" characteristicTypeId="a579-e954-2e8e-4035" value="Melee"/>
+                <characteristic name="Str" characteristicTypeId="8898-65f9-32c1-f34e" value="User"/>
+                <characteristic name="AP" characteristicTypeId="39d4-981d-1d63-7e11" value="-4"/>
+                <characteristic name="Dam" characteristicTypeId="2fc2-265d-f1e5-fc28" value="D3"/>
+                <characteristic name="Special" characteristicTypeId="a95f-a623-0e48-6c79"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c41b-e1d4-14d8-e8e6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8360-b797-3e46-dc10" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e1b8-3af2-dff2-16e5" name="New EntryLink" hidden="false" targetId="f3ea-c43c-86dd-7342" type="selectionEntry">
+        <entryLink id="e1b8-3af2-dff2-16e5" name="Plasma Rifle" hidden="false" targetId="f3ea-c43c-86dd-7342" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3603,26 +3979,109 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3b39-0e8a-49e4-4ba5" name="Shield Generator" hidden="false" targetId="8592-96cb-7723-f618" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="8464-43e9-728d-c372" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ec-a0d7-37e4-bd5b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f5-ab2d-2927-c0a9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="151.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18b8-95c9-eafd-4656" name="Commander Shadowsun" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="fe44-55bc-29db-efc8" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <profiles>
+        <profile id="1375-e0c9-b12f-4808" name="Commander Shadowsun" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="4"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="4"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="5"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="8d41-0934-978b-af4e" name="Camouflage Fields" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Your opponent must subtract 1 from all hit rolls that target Commander Shadowsun or her Command Drones."/>
+          </characteristics>
+        </profile>
+        <profile id="b23f-16b3-3648-1af5" name="XV22 Stealth Battlesuit" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Commander Shadowsun has a 5+ invulnerable save."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="34b3-03ca-1acf-44f1" name="Defender of the Greater Good" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Roll a D6 each time Shadowsun loses a wound whilst she is within 3&quot; of a unit of friendly XV25 Stealth Battlesuits. On a 2+, a model from that unit can intercept that hit – Shadowsun does not lose a wound but that unit suffers a mortal wound.</description>
+        </rule>
+        <rule id="68fe-fe74-15e6-2474" name="Genius of Kauyon" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per battle, Commander Shadowsun can declare Kauyon even if Kauyon or Mont’ka has already been declared. Mont’ka and Kauyon cannot both be declared in the same turn.</description>
+        </rule>
+        <rule id="68fc-9c17-0ba9-7ae4" name="Infiltrator (Shadowsun)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During deployment, Commander Shadowsun can be set up anywhere on the battlefield that is not within your opponent’s deployment zone and is more than 12&quot; from any enemy unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="32da-d180-f5f5-09bc" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="95fb-7c3b-6f64-10f3" name="Master of War" hidden="false" targetId="29e0-b867-54c7-542e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3404-e044-eff3-40a2" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="18b8-95c9-eafd-4656-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
           <profiles/>
@@ -3646,7 +4105,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="8078-0df6-1472-4091" name="New EntryLink" hidden="false" targetId="3951-c4ca-15bc-46f5" type="selectionEntry">
+            <entryLink id="8078-0df6-1472-4091" name="MV62 Command-link Drone" hidden="false" targetId="3951-c4ca-15bc-46f5" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3656,7 +4115,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="bf66-02f9-1671-13a7" name="New EntryLink" hidden="false" targetId="fce2-51af-593e-cde5" type="selectionEntry">
+            <entryLink id="bf66-02f9-1671-13a7" name="MV52 Shield Drone" hidden="false" targetId="fce2-51af-593e-cde5" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3670,7 +4129,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4559-ad81-4fd8-a3f1" name="New EntryLink" hidden="false" targetId="e7d9-0f2c-14af-a05d" type="selectionEntry">
+        <entryLink id="4559-ad81-4fd8-a3f1" name="Fusion Blaster" hidden="false" targetId="e7d9-0f2c-14af-a05d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3690,23 +4149,65 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="167.0"/>
-        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9df9-1cf0-fe43-6b65" name="Darkstrider" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="fe44-55bc-29db-efc8" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <profiles>
+        <profile id="3511-5fee-8557-08fe" name="Darkstrider" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="7&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="2+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="3"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="5"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="8"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5f3c-7f3c-4460-26d9" name="Vanguard" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the start of the first battle round but before the first turn begins, you can move Darkstrider up to 7&quot;. He cannot end this move within 9&quot; of any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first. </description>
+        </rule>
+        <rule id="d597-690f-2185-96ca" name="Structural Analyser" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In your Shooting phase, choose a friendly T’AUSEPT INFANTRYunit within 6&quot; and an enemy unit visible to Darkstrider. The enemy unit’s Toughness is considered to be 1 point lower when that T’AU SEPT INFANTRYunit targets them with a shooting attack. This ability cannot be used when firing Overwatch.</description>
+        </rule>
+        <rule id="c58e-9138-5307-bee5" name="Fighting Retreat" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Friendly T’AU SEPT INFANTRY units within 6&quot; of Darkstrider in the Shooting phase may attack with ranged weapons even if they Fell Back this turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fc6e-cef0-490b-3d05" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4258-f14c-11c5-3736" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="9df9-1cf0-fe43-6b65-94ca-69c0-e288-a2bb" hidden="false" targetId="94ca-69c0-e288-a2bb" primary="true">
           <profiles/>
@@ -3736,7 +4237,7 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="77bd-ba14-ada3-ebf1" name="New EntryLink" hidden="false" targetId="f56f-f65a-c3d3-9449" type="selectionEntry">
+        <entryLink id="77bd-ba14-ada3-ebf1" name="Pulse Carbine" hidden="false" targetId="f56f-f65a-c3d3-9449" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5674,31 +6175,149 @@
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b798-0d79-13c4-e28c" name="MV1 Gun Drone" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+    <selectionEntry id="b798-0d79-13c4-e28c" name="MV1 Gun Drone" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="56e6-4810-f8a0-f0a8" name="MV1 Gun Drone" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="5+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="5+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="4"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="1"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="6"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="2c61-8fe1-f336-4593" name="Threat Identification Protocols" hidden="false" targetId="56f5-4e84-8457-89b4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c400-ec58-de56-a83d" name="Drone Support" hidden="false" targetId="d513-5a9d-8982-e141" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="03e7-65d8-654c-7263" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9f1d-c977-be91-ece3" name="Saviour Protocols" hidden="false" targetId="0fbf-b191-03b8-36d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="797c-1617-c360-60b3" name="Pulse Carbine" hidden="false" targetId="f56f-f65a-c3d3-9449" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="8464-43e9-728d-c372" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f051-8ecf-52e3-afba" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d34c-2d9a-7a5b-5fbb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0bb5-308b-aafd-8741" name="MV4 Shield Drone" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+    <selectionEntry id="0bb5-308b-aafd-8741" name="MV4 Shield Drone" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="31d4-5e90-5d3d-1790" name="MV4 Shield Drone" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="5+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="5+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="4"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="1"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="6"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="1ba5-1bf1-9125-c191" name="Drone Support" hidden="false" targetId="d513-5a9d-8982-e141" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="341d-5081-84da-9163" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ff47-abc6-1773-e855" name="Saviour Protocols" hidden="false" targetId="0fbf-b191-03b8-36d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="aab4-e793-89ae-2598" name="Shield Generator" hidden="false" targetId="8592-96cb-7723-f618" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="8464-43e9-728d-c372" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12d2-c483-636b-b40d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9b-0ba3-d022-1db8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
@@ -5720,15 +6339,77 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9fc0-f331-cf5c-5ef2" name="MV7 Marker Drone" hidden="false" collective="false" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="c94c-5bd1-aa78-8201" name="MV7 Marker Drone" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="5+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="5+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="4"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="1"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="6"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="ca6c-25d9-86aa-314d" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6a18-b7f2-0735-d00f" name="Drone Support" hidden="false" targetId="d513-5a9d-8982-e141" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c43-bfc5-a308-b05a" name="Saviour Protocols" hidden="false" targetId="0fbf-b191-03b8-36d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4c2e-2128-e67c-23c6" name="Stable Platform" hidden="false" targetId="16f5-2585-683c-489b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b49d-c2b5-e6aa-7fa6" name="Markerlight" hidden="false" targetId="effc-f109-df06-23e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="8464-43e9-728d-c372" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e06-51c6-4886-2e0f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b44c-2ded-06a4-91d6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
@@ -5810,9 +6491,56 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fce2-51af-593e-cde5" name="MV52 Shield Drone" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="90f6-33b0-3c4e-2ac3" name="MV52 Shield Drone" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="5+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="5+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="4"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="1"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="6"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="7380-80b9-b7fe-00bd" name="MV52 Shield Drone Shield Generator" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="MV52 Shield Drones have a 3+ invulnerable save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="2c2a-1b53-a854-e2da" name="Drone Support" hidden="false" targetId="d513-5a9d-8982-e141" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="89a5-9d31-a714-188f" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb0a-7579-59d8-9004" name="Saviour Protocols" hidden="false" targetId="0fbf-b191-03b8-36d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -5825,9 +6553,56 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3951-c4ca-15bc-46f5" name="MV62 Command-link Drone" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="8b9e-7c25-be74-e0c7" name="MV62 Command-link Drone" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+            <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+            <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="5+"/>
+            <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="5+"/>
+            <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+            <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="4"/>
+            <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="1"/>
+            <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="6"/>
+            <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="e7c5-d01c-601b-d6e9" name="Command-link" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="If a friendly Command-link Drone is within 3&quot; of Commander Shadowsun at the start of any of your Shooting phases, nominate a single T’AU EMPIRE unit within 12&quot; of the Drone. You can re-roll hit rolls of 1 for that unit until the end of the phase."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="0540-6841-f859-7aa1" name="Drone Support" hidden="false" targetId="d513-5a9d-8982-e141" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cf77-0daf-69a0-db48" name="For the Greater Good" hidden="false" targetId="fa4a-026d-1b5e-f364" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3fd6-483c-f0b0-fc20" name="Saviour Protocols" hidden="false" targetId="0fbf-b191-03b8-36d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -6854,8 +7629,7 @@ Add 1 to hit rolls forT’AU EMPIREmodels attacking this unit.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Pulse Bombs: A Sun Shark Bomber may drop one pulse bomb as it flies over enemy units in its
-Movement phase. To do so, after the model has moved, target one enemy unit that it flew over. Then,roll a D6 for each model in that unit (up to a maximum of 10), adding 1 to the result if the enemy unit is INFANTRY. For each roll of 5+, the target unit suffers 1 mortal wound."/>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Pulse Bombs: A Sun Shark Bomber may drop one pulse bomb as it flies over enemy units in its Movement phase. To do so, after the model has moved, target one enemy unit that it flew over. Then,roll a D6 for each model in that unit (up to a maximum of 10), adding 1 to the result if the enemy unit is INFANTRY. For each roll of 5+, the target unit suffers 1 mortal wound."/>
           </characteristics>
         </profile>
       </profiles>
@@ -7408,7 +8182,7 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Friendly &lt;SEPT&gt;DRONE units within 6&quot; of a model equipped with a drone controller add one to any hit rolls."/>
+            <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Friendly &lt;Sept&gt; Drone units within 6&quot; of any models equipped with a drone controller add one to any hit rolls."/>
           </characteristics>
         </profile>
       </profiles>
@@ -8029,6 +8803,7 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <entryLinks/>
       <costs>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2716-06d9-be19-e02d" name="Pulse Ordnance Multi-Driver" hidden="false" collective="false" type="upgrade">
@@ -8308,7 +9083,10 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e42b-9999-ef71-31af" name="Pulse submunitions rifle" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -8335,7 +9113,10 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2b8b-5da6-46c4-a308" name="Skyspear missile rack" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -8362,7 +9143,10 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="645b-93c2-997d-c84d" name="Flechette Pod" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -8403,7 +9187,10 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7546-5472-ba58-ba9e" name="Crushing Feet" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -8430,7 +9217,10 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -8452,7 +9242,7 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d3d1-b7f0-3c28-fd01" name="New EntryLink" hidden="false" targetId="af3d-3869-67e1-98c5" type="selectionEntry">
+        <entryLink id="d3d1-b7f0-3c28-fd01" name="Airburst Frag Projector" hidden="false" targetId="af3d-3869-67e1-98c5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8512,7 +9302,7 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3ea7-3fc0-e64b-bbaa" name="New EntryLink" hidden="false" targetId="a0fe-1936-7237-63b6" type="selectionEntry">
+        <entryLink id="3ea7-3fc0-e64b-bbaa" name="Advanced Targeting System" hidden="false" targetId="a0fe-1936-7237-63b6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8552,7 +9342,7 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c153-c7e6-ebee-c378" name="New EntryLink" hidden="false" targetId="608b-896f-2da8-10e5" type="selectionEntry">
+        <entryLink id="c153-c7e6-ebee-c378" name="Target Lock" hidden="false" targetId="608b-896f-2da8-10e5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8596,7 +9386,7 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2314-02c7-c2ea-3c5e" name="New EntryLink" hidden="false" targetId="b798-0d79-13c4-e28c" type="selectionEntry">
+        <entryLink id="2314-02c7-c2ea-3c5e" name="MV1 Gun Drone" hidden="false" targetId="b798-0d79-13c4-e28c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8623,6 +9413,96 @@ Movement phase. To do so, after the model has moved, target one enemy unit that 
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules/>
-  <sharedProfiles/>
+  <sharedRules>
+    <rule id="fa4a-026d-1b5e-f364" name="For the Greater Good" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When an enemy unit declares a charge, a unit with this ability that is within 6&quot; of one of the charging unit’s targets may fire Overwatch as if they were also targeted. A unit that does so cannot fire Overwatch again in this turn.</description>
+    </rule>
+    <rule id="0fbf-b191-03b8-36d5" name="Saviour Protocols" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Saviour Protocols: If a &lt;Sept&gt; Drones unit is within 3&quot; of a friendly &lt;Sept&gt; Infantry or &lt;Sept&gt; Battlesuit
+unit when an enemy attack successfully wounds it, you can allocate that wound to the Drones unit instead of
+the target. If you do, that Drones unit suffers a mortal wound instead of the normal damage.</description>
+    </rule>
+    <rule id="d513-5a9d-8982-e141" name="Drone Support" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Tactical Drones often accompany other T’au Empire units. In such instances, a unit’s datasheet will instruct you if, and how many, Tactical Drones may accompany it. Tactical Drones included in your army in this way have the Battlefield Role of the
+unit they accompany. When a unit is set up, any accompanying Drones must be placed in unit coherency with it. From that point
+onwards, the accompanying Drones are treated as a separate unit.</description>
+    </rule>
+    <rule id="56f5-4e84-8457-89b4" name="Threat Identification Protocols" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>In the Shooting phase, Gun Drones can only target the nearest visible enemy
+unit. If two units are equally close, you may choose which is targeted.</description>
+    </rule>
+    <rule id="29e0-b867-54c7-542e" name="Master of War" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per battle, at the beginning of your turn, a single friendly COMMANDER can declare either Kauyon or Mont’ka. Kauyon: Until the end of the turn, you can re-roll failed hit rolls for friendly &lt;SEPT&gt; units within 6&quot;, but these units cannot move for any reason. Mont’ka: Friendly &lt;SEPT&gt; units within 6&quot; can both Advance and shoot as if they hadn’t moved this turn.</description>
+    </rule>
+    <rule id="fe78-2354-c5c5-261b" name="Manta Strike" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>During deployment, you may set up a Commander in a Manta hold instead of placing them on the battlefield. At the end of any of your Movement phases, they can use a Manta strike to enter the fray – set them up anywhere on the battlefield that is more than 9&quot; from any enemy models.</description>
+    </rule>
+    <rule id="9fb2-0707-bcb0-adac" name="Failure Is Not An Option" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Friendly T’AU EMPIRE units within 6&quot; of an ETHEREAL may use the Ethereal’s Leadership characteristic instead of their own when taking Morale tests.</description>
+    </rule>
+    <rule id="3d31-6c67-395c-72ee" name="Invocation of the Elements" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>In your Movement phase, an ETHEREAL may invoke one of the elemental powers below. All friendly T’AUEMPIRE INFANTRYand BATTLESUITunits within 6&quot; of any ETHEREAL invoking an elemental power gain that power’s benefit until the start of your next turn. -Calm of Tides: Subtract 1 from any Morale tests made for affected units. -Storm of Fire: You may re-roll hit rolls of 1 in the Shooting phase for affected units that remain stationary in the Movement phase. -Sense of Stone: Whenever an affected unit suffers an unsaved wound, roll a D6. On a 6, that wound is ignored. -Zephyr’s Grace: You can re-roll the dice for affected units when they Advance.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="16f5-2585-683c-489b" name="Stable Platform" hidden="false" profileTypeId="01c0-0c83-fd87-4d03" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="b851-0733-2b9d-05a4" value="Marker Drones do not suffer the penalty for moving and firing Heavy weapons."/>
+      </characteristics>
+    </profile>
+    <profile id="654c-57ad-0952-6c49" name="Drone" hidden="false" profileTypeId="ace8-9b23-7107-9381" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Wound Brackets" characteristicTypeId="0113-348e-b878-4228"/>
+        <characteristic name="M" characteristicTypeId="53cf-7027-e988-1551" value="8&quot;"/>
+        <characteristic name="WS" characteristicTypeId="3a77-fefb-3242-93cc" value="5+"/>
+        <characteristic name="BS" characteristicTypeId="6fc2-aeb3-a05a-06f2" value="5+"/>
+        <characteristic name="S" characteristicTypeId="9c5f-301c-1a1d-0218" value="3"/>
+        <characteristic name="T" characteristicTypeId="54a7-0a39-d917-d581" value="4"/>
+        <characteristic name="W" characteristicTypeId="79c2-879f-2049-8f5d" value="1"/>
+        <characteristic name="A" characteristicTypeId="decf-38df-b35a-7529" value="1"/>
+        <characteristic name="Ld" characteristicTypeId="6263-ef04-5e3f-b5cf" value="6"/>
+        <characteristic name="Sv" characteristicTypeId="835a-053a-482d-ac6e" value="4+"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>
