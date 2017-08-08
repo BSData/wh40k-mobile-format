@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da20-c096-03e4-eadd" name="Space Marines" revision="35" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da20-c096-03e4-eadd" name="Space Marines" revision="36" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -586,6 +586,7 @@
           <entryLinks/>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1887,6 +1888,7 @@
           <entryLinks/>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11741,6 +11743,7 @@
           <entryLinks/>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="18.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -35828,6 +35831,7 @@
           <entryLinks/>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="25.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -35899,7 +35903,10 @@
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+                <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -35916,7 +35923,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bf22-f788-83cb-ccc1" name="Rievers" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -35949,6 +35959,7 @@
           <entryLinks/>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="18.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -35971,7 +35982,10 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7adc-3f3b-e4cf-df40" name="Redemptor Dreadnought" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -36099,6 +36113,7 @@
       </entryLinks>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="140.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e946-a97a-6571-e076" name="Lieutenants" hidden="false" collective="false" type="unit">
@@ -36273,12 +36288,254 @@
           <entryLinks/>
           <costs>
             <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="60.0"/>
+            <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd01-cc77-b64b-40bf" name="Repulsor" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="493f-adbc-b2a0-d089" name="New CategoryLink" hidden="false" targetId="677e-5c63-b7e2-9e9a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c58f-54a5-bc8a-c9d6" name="Exchange Turret Weapon:" hidden="false" collective="false" defaultSelectionEntryId="981f-9b56-ed74-d29e">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5367-1134-f21d-3f84" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="694f-85f0-e3ed-3f24" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="981f-9b56-ed74-d29e" name="Heavy Onslaught Gatling Cannon" hidden="false" targetId="e346-cdfe-3a49-8f57" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c975-a4bb-7a72-055a" name="Las-talon" hidden="false" targetId="edae-f2a8-c65e-6a1a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8ef8-bed1-bcfc-0502" name="Exchange Hull Weapon:" hidden="false" collective="false" defaultSelectionEntryId="5656-e80b-1230-c644">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e49a-f866-096f-b9de" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c310-95a4-2d90-6e6b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5656-e80b-1230-c644" name="Twin Heavy Bolter" hidden="false" targetId="da05-0e67-c5e1-d6ec" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="93ae-f2ef-358e-f971" name="Twin Lascannon" hidden="false" targetId="20df-cc8c-496b-b386" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="96ba-b812-60d1-8d68" name="Exchange Pintle Weapon:" hidden="false" collective="false" defaultSelectionEntryId="6843-0174-61d1-3205">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ad-fe91-ba8b-e0d2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ebb-d226-a4d6-c471" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6843-0174-61d1-3205" name="Ironhail Heavy Stubber" hidden="false" targetId="01c6-f052-63dd-66c1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dc2f-4b67-b7a4-07b4" name="Onslaught Gatling Cannon" hidden="false" targetId="6004-8c01-59d1-098e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="07f7-6f68-1e27-fe58" name="Exchange Door Weapons:" hidden="false" collective="false" defaultSelectionEntryId="f701-f3c4-df3f-157f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fba-fecd-87fe-ca1d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee3f-4194-bfac-1b1d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f701-f3c4-df3f-157f" name="Two Stormbolters" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="25fd-c847-2d8f-04a6" name="Stormbolter" hidden="false" targetId="465d-b861-318d-ccf7" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b7-f3e3-662a-b571" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b52-5f0f-7027-5e12" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="ae69-6a87-e591-19db" name="Two Fragstorm" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="e6aa-8e69-fafe-3755" name="Fragstorm Grenade Launcher" hidden="false" targetId="b792-da6a-0123-bf5c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17c0-174d-339f-1850" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c258-5c65-8a65-56a3" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8f10-064d-cd2f-a077" name="Exchange Rear Weapons:" hidden="false" collective="false" defaultSelectionEntryId="5dd0-8f89-0720-e425">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfd5-a9ba-7565-0acf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8179-fa3c-6e18-f801" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5dd0-8f89-0720-e425" name="Icarus Ironhail Heavy Stubber" hidden="false" targetId="2b1e-398c-f303-0160" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fc7b-4963-219b-e0b6" name="Stormbolter" hidden="false" targetId="465d-b861-318d-ccf7" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7b8e-94e0-c194-f722" name="Fragstorm Grenade Launcher" hidden="false" targetId="b792-da6a-0123-bf5c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1009-23db-21a9-47f9" name="Icarus Rocket Pod" hidden="false" targetId="71de-bb4e-0101-8c3b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9276-22c5-e1d5-d033" name="Ironhail Heavy Stubber" hidden="false" targetId="01c6-f052-63dd-66c1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cba-3c78-67ab-0a94" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="16.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="210.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -41822,6 +42079,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="16.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1928-c080-7a5e-e0cf" name="Auto Bolt Rifle" hidden="false" collective="false" type="upgrade">
@@ -41836,6 +42094,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="1.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10c6-84e2-fc91-f3d0" name="Auto Boltstorm Gauntlets" hidden="false" collective="false" type="upgrade">
@@ -41850,6 +42109,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="14.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="514c-e70c-9ca7-ebd5" name="Flamestorm Gauntlets" hidden="false" collective="false" type="upgrade">
@@ -41864,6 +42124,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="18.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b792-da6a-0123-bf5c" name="Fragstorm Grenade Launcher" hidden="false" collective="false" type="upgrade">
@@ -41878,6 +42139,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="4.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e346-cdfe-3a49-8f57" name="Heavy Onslaught Gatling Cannon" hidden="false" collective="false" type="upgrade">
@@ -41892,6 +42154,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="36.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f16d-b69d-b57f-0571" name="Heavy Plasma Incinerator" hidden="false" collective="false" type="upgrade">
@@ -41906,6 +42169,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="17.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b1e-398c-f303-0160" name="Icarus Ironhail Heavy Stubber" hidden="false" collective="false" type="upgrade">
@@ -41920,6 +42184,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="6.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71de-bb4e-0101-8c3b" name="Icarus Rocket Pod" hidden="false" collective="false" type="upgrade">
@@ -41934,6 +42199,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="6.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01c6-f052-63dd-66c1" name="Ironhail Heavy Stubber" hidden="false" collective="false" type="upgrade">
@@ -41948,6 +42214,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="6.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa45-774d-ef2e-ec2b" name="Krakstorm Grenade Launcher" hidden="false" collective="false" type="upgrade">
@@ -41962,6 +42229,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="4.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0a3-5d6b-c784-96f1" name="Macro Plasma Incinerator" hidden="false" collective="false" type="upgrade">
@@ -41976,6 +42244,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="31.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e51-3593-c733-a3c2" name="Master-Crafted Stalker Bolt Rifle" hidden="false" collective="false" type="upgrade">
@@ -41990,6 +42259,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="5.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6004-8c01-59d1-098e" name="Onslaught Gatling Cannon" hidden="false" collective="false" type="upgrade">
@@ -42004,6 +42274,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="16.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5caf-0080-6fb7-f7c3" name="Plasma Exterminator" hidden="false" collective="false" type="upgrade">
@@ -42018,6 +42289,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="28.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bfc-a212-de12-fe06" name="Stalker Bolt Rifle" hidden="false" collective="false" type="upgrade">
@@ -42032,6 +42304,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="2.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="262a-5907-9e31-e772" name="Grav Chute" hidden="false" collective="false" type="upgrade">
@@ -42046,6 +42319,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="2.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3277-3666-40e7-ae45" name="Grapnel Launcher" hidden="false" collective="false" type="upgrade">
@@ -42060,6 +42334,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="2.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
