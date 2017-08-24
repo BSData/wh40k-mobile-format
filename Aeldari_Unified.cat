@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="34" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="35" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7165,21 +7165,21 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="de98-a3e3-e8c6-05a1" name="One per Ten:" hidden="false" collective="false">
+        <selectionEntryGroup id="de98-a3e3-e8c6-05a1" name="May Choose One:" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="d601-3ed9-404e-2caf" value="1">
               <repeats>
-                <repeat field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2f1d-af1b-cd1d-c0a8" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="2f1d-af1b-cd1d-c0a8" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d601-3ed9-404e-2caf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d601-3ed9-404e-2caf" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -11541,20 +11541,6 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="decrement" field="bc78-7072-5b48-889b" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="edb0-64bc-25da-244d" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="b2ba-4e87-ff2c-9069" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="edb0-64bc-25da-244d" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc78-7072-5b48-889b" type="max"/>
@@ -11729,14 +11715,6 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="fddb-5f89-1c7e-55e6" name="Lasblaster" hidden="false" targetId="7001-f61e-fb73-006f" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -11884,14 +11862,6 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="bde1-d4f4-c32a-f4fa" name="Lasblaster" hidden="false" targetId="7001-f61e-fb73-006f" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8835-527d-35fe-d460" name="Reaver Weapons" hidden="false" collective="false">
@@ -11909,20 +11879,6 @@
             <modifier type="increment" field="0485-fd23-9d75-5861" value="1">
               <repeats>
                 <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="584f-1575-308a-85fd" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="c8ab-6572-08b0-caba" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="32c7-cb3a-d2e2-18ec" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="0485-fd23-9d75-5861" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="32c7-cb3a-d2e2-18ec" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -12097,7 +12053,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="ed8e-00e7-33e6-51d2" name="New EntryLink" hidden="false" targetId="7653-c2f8-cf7a-0cff" type="selectionEntry">
+    <entryLink id="ed8e-00e7-33e6-51d2" name="Craftworlds" hidden="false" targetId="7653-c2f8-cf7a-0cff" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12108,8 +12064,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="98fb-7023-9a62-f244" type="equalTo"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="7da2-af15-11a9-052d" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="3724-092a-bf17-f4ad" type="equalTo"/>
               </conditions>
               <conditionGroups/>
@@ -12122,7 +12076,7 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="98fb-7023-9a62-f244" name="New EntryLink" hidden="false" targetId="5284-09a9-8a94-2d33" type="selectionEntry">
+    <entryLink id="98fb-7023-9a62-f244" name="Drukhari" hidden="false" targetId="5284-09a9-8a94-2d33" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12133,9 +12087,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="7da2-af15-11a9-052d" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="3724-092a-bf17-f4ad" type="equalTo"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ed8e-00e7-33e6-51d2" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12172,7 +12124,7 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="7da2-af15-11a9-052d" name="New EntryLink" hidden="false" targetId="2eee-e68e-d237-0f38" type="selectionEntry">
+    <entryLink id="7da2-af15-11a9-052d" name="Harlequins" hidden="false" targetId="2eee-e68e-d237-0f38" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12183,9 +12135,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="98fb-7023-9a62-f244" type="equalTo"/>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="3724-092a-bf17-f4ad" type="equalTo"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ed8e-00e7-33e6-51d2" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
