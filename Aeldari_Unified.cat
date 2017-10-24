@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="35" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="37" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -807,7 +807,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="8a19-3e1a-3d77-9fe1" name="New EntryLink" hidden="false" targetId="eb1e-c6d0-dbae-6f98" type="selectionEntry">
+            <entryLink id="8a19-3e1a-3d77-9fe1" name="Avenger Shuriken Catapult" hidden="false" targetId="eb1e-c6d0-dbae-6f98" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -820,7 +820,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -838,7 +838,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1087,7 +1087,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2172-bbd8-e51c-a137" name="New EntryLink" hidden="false" targetId="cb55-c03e-caa4-d094" type="selectionEntry">
+        <entryLink id="2172-bbd8-e51c-a137" name="Pulse Laser" hidden="false" targetId="cb55-c03e-caa4-d094" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1100,7 +1100,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="174.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="125.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1169,7 +1169,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="106.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="100.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1311,7 +1311,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="154.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="130.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1558,7 +1558,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="158.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="155.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2004,7 +2004,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="155.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="135.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2120,7 +2120,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="24.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="18.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2138,7 +2138,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="24.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="18.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2229,7 +2229,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="66.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2809,7 +2809,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="77.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="5.0"/>
           </costs>
         </selectionEntry>
@@ -2946,7 +2946,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="64.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="50.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -3076,7 +3076,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="61.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="50.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -3180,7 +3180,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="35.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3414,7 +3414,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="70.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3474,7 +3474,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="70.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="60.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -3589,7 +3589,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="14.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -3607,7 +3607,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="14.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4426,7 +4426,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="180.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="150.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4728,7 +4728,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="18.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4924,7 +4924,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="107.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="105.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12051,6 +12051,42 @@
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4329-4dde-b28a-0e1d" name="Bonesinger" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="ed8e-00e7-33e6-51d2" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="3724-092a-bf17-f4ad" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4579-b483-081b-552b" name="New CategoryLink" hidden="false" targetId="fce4-07ee-b492-2d97" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="70.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="ed8e-00e7-33e6-51d2" name="Craftworlds" hidden="false" targetId="7653-c2f8-cf7a-0cff" type="selectionEntry">
@@ -12267,7 +12303,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="7.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="4.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12327,7 +12363,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="50.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="45.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12522,7 +12558,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="9.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12640,7 +12676,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="31.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="22.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12655,7 +12691,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12715,7 +12751,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="12.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12819,7 +12855,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="14.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="4.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12864,7 +12900,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12999,7 +13035,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="24.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13044,7 +13080,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="60.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="28.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13059,7 +13095,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="20.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13164,7 +13200,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="15.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13314,7 +13350,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="65.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="30.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13359,7 +13395,6 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="7.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13459,7 +13494,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="6.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13684,7 +13719,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="12.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -14749,7 +14784,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="31.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="22.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -14779,7 +14814,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="7.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="4.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -14824,7 +14859,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="9.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="8.0"/>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
