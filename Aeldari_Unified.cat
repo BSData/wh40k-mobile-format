@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="37" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fb48-7a7e-5d11-2868" name="Aeldari_Unified" revision="38" battleScribeVersion="2.01" gameSystemId="0b29-8e58-e248-9ac9" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2672,7 +2672,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="6.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2690,7 +2690,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="10.0"/>
+            <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="6.0"/>
             <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -12085,6 +12085,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="70.0"/>
+        <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -13396,6 +13397,7 @@
       <entryLinks/>
       <costs>
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
+        <cost name=" Pts" costTypeId="8464-43e9-728d-c372" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdd0-d78c-337b-d1f8" name="Witch Staff" hidden="false" collective="false" type="upgrade">
