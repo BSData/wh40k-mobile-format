@@ -2118,7 +2118,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="5e4d-9b26-8703-e5cc" name="Twin Shuriken Catapult" hidden="false" targetId="4c71-d42c-1def-d1c6" type="selectionEntry">
+            <entryLink id="5e4d-9b26-8703-e5cc" name="Twin Shuriken Catapult" hidden="false" targetId="706b-01e3-c9ad-12da" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8704,13 +8704,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e146-c8ac-3007-7f55" name="New EntryLink" hidden="false" targetId="7c86-3c1b-77e3-6a3c" type="selectionEntry">
+        <entryLink id="e146-c8ac-3007-7f55" name="Splinter Cannon" hidden="false" targetId="7c86-3c1b-77e3-6a3c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ac-be4d-b7c8-03d9" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ac-be4d-b7c8-03d9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d0-d71e-a477-efb7" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -12173,7 +12173,15 @@
     </selectionEntry>
     <selectionEntry id="2547-be1e-f67e-d182" name="Autarch Skyrunner" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="af87-cdb5-a70a-0b55" name="Peerles Agility" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>4+ Invulnerable Save</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -12257,17 +12265,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dca6-6407-6618-7094" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aafa-4303-38a0-366c" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e8e8-7be6-8412-3602" name="Forceshield" hidden="false" targetId="8bbb-d02f-cc08-c145" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9be6-bc9c-04f5-070a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28e-5ce3-e16c-555e" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -14544,7 +14541,7 @@
         <cost name=" Pwr" costTypeId="0a66-bd1e-3b50-42a2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d480-512f-508e-7bb4" name="Eectrocorrosive Whip" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d480-512f-508e-7bb4" name="Electrocorrosive Whip" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
